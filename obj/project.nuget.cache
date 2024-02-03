@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NVFHVEI84TtV1dDvLU003KGu2DOmC4V1NPK5LdsLf0A5kTn9WOUD3eDy4EFixC/rckLBwqmJ+U5cD6zCbKsS/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\filipondios\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\TururusMod\\TururusMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\filipondios\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
