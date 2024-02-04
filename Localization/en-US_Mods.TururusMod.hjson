@@ -1,8 +1,11 @@
-# This file will automatically update with entries for new content after a build and reload
-
 Items: {
-	BasicSword: {
-		DisplayName: Basic Sword
-		Tooltip: ""
+	TururusAxe: {
+		DisplayName: Tururu's Axe
+		Tooltip: Looks like an axe, uh?
+	}
+
+	TururusSword: {
+		DisplayName: Tururu's Sword
+		Tooltip: Looks like a sword, uh?
 	}
 }
