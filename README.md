@@ -22,7 +22,7 @@
 ## TODO List
 
 - [x] Arma para Melee
-- [ ] Arma para Ranged 
+- [x] Arma para Ranged 
 - [ ] Arma para Magic
 - [ ] Un NPC
 - [ ] Un traje vanity
