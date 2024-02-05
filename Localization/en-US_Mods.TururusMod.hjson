@@ -15,7 +15,7 @@ Items: {
 	}
 
 	TururusCannon: {
-		Tooltip: ""
 		DisplayName: Tururus Cannon
+		Tooltip: "That's a huge cannon, uh?"
 	}
 }
