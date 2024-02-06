@@ -9,8 +9,8 @@ namespace TururusMod.Items {
 		public override void SetDefaults() {
 			Item.damage = 3000;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 499;
-			Item.height = 499;
+			Item.width = 113;
+			Item.height = 112;
 			Item.useTime = 10;
 			Item.useAnimation = 10;
 			Item.useStyle = 1;
