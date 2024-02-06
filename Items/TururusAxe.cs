@@ -12,7 +12,7 @@ namespace TururusMod.Items {
 			Item.width = 59;
 			Item.height = 83;
 			Item.useTime = 5;
-			Item.useAnimation = 20;
+			Item.useAnimation = 5;
 			Item.useStyle = 1;
 			Item.knockBack = 15;
 			Item.value = 1;

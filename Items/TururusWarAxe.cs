@@ -7,12 +7,12 @@ namespace TururusMod.Items {
 	public class TururusWarAxe : ModItem {
 
 		public override void SetDefaults() {
-			Item.damage = 2800;
+			Item.damage = 2400;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 61;
 			Item.height = 90;
 			Item.useTime = 8;
-			Item.useAnimation = 20;
+			Item.useAnimation = 8;
 			Item.useStyle = 1;
 			Item.knockBack = 18;
 			Item.value = 1;

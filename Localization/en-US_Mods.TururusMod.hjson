@@ -15,7 +15,12 @@ Items: {
 	}
 
 	TururusCannon: {
-		DisplayName: Tururus Cannon
-		Tooltip: "That's a huge cannon, uh?"
+		DisplayName: Tururu's Cannon
+		Tooltip: That's a huge cannon, uh?
+	}
+
+	TururusStaff: {
+		DisplayName: Tururu's Staff
+		Tooltip: Looks like a staff, uh?
 	}
 }

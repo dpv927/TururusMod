@@ -6,23 +6,23 @@ using Microsoft.Xna.Framework;
 
 namespace TururusMod.Items {
 
-	public class TururusCannon : ModItem {
+	public class TururusStaff : ModItem {
 
 		public override void SetDefaults() {
-			Item.damage = 1100;
-			Item.DamageType = DamageClass.Ranged;	
+			Item.damage = 650;
+			Item.DamageType = DamageClass.Magic;
+            Item.mana = 4;
 			Item.width = 59;
 			Item.height = 83;
-			Item.useTime = 7;
-			Item.useAnimation = 7;
+			Item.useTime = 4;
+			Item.useAnimation = 4;
 			Item.useStyle = 5;
 			Item.knockBack = 2;
 			Item.value = 1;
 			Item.rare = -12;
-			Item.UseSound = SoundID.Item11;
+			Item.UseSound = SoundID.Item67;
 			Item.autoReuse = true;
-			Item.shoot = 1;
-			Item.useAmmo = AmmoID.Bullet;
+			Item.shoot = ProjectileID.EnchantedBeam;
 			Item.shootSpeed = 30f;
 			Item.noMelee = true;
 		}
@@ -38,7 +38,7 @@ namespace TururusMod.Items {
 			recipe.Register();
 		}
 
-		public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
 			Vector2 offset = new Vector2(velocity.X * 3, velocity.Y * 3);
 			position += offset;
 			return true;
