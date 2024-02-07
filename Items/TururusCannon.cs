@@ -3,7 +3,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 using Microsoft.Xna.Framework;
-using TururusMod.Projectiles;
 
 namespace TururusMod.Items {
 
@@ -22,8 +21,8 @@ namespace TururusMod.Items {
 			Item.rare = -12;
 			Item.UseSound = SoundID.Item11;
 			Item.autoReuse = true;
-			Item.shoot = ModContent.ProjectileType<GelBulletProjectile>();
-			Item.useAmmo = ModContent.ProjectileType<GelBulletProjectile>();
+			Item.shoot = 1;
+			Item.useAmmo = AmmoID.Bullet;
 			Item.shootSpeed = 30f;
 			Item.noMelee = true;
 		}
@@ -40,18 +39,8 @@ namespace TururusMod.Items {
 		}
 
 		public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
-			Vector2 offset = velocity;
+			Vector2 offset = new Vector2(velocity.X * 3, velocity.Y * 3);
 			position += offset;
-			if (type == ProjectileID.Bullet) 
-			{
-				type = ModContent.ProjectileType<GelBulletProjectile>();
-			}
-			for (var i = 0; i < Main.rand.Next(3,4); i++)
-			{
-				Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(25));
-				Projectile.NewProjectile(Projectile.GetSource_NaturalSpawn(), position, perturbedSpeed, type, damage, knockback, player.whoAmI);
-			}
-			return false;
 			return true;
         }
 

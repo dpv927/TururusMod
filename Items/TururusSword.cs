@@ -31,6 +31,7 @@ namespace TururusMod.Items {
 			position += offset;
 
 			type = ModContent.ProjectileType<TururusSwordProjectile>();
+
 			for (var i = 0; i < Main.rand.Next(3,4); i++) {
 				Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(25));
 				Projectile.NewProjectile(Projectile.GetSource_NaturalSpawn(), position, perturbedSpeed, type, damage, knockback, player.whoAmI);

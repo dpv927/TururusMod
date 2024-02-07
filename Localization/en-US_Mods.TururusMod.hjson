@@ -10,9 +10,4 @@ Items: {
 	}
 }
 
-Projectiles: {
-	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
-	IronBullet.DisplayName: Iron Bullet
-	CannonBullet.DisplayName: Cannon Bullet
-	GelBulletProjectile.DisplayName: Gel Bullet Projectile
-}
+Projectiles.TururusSwordProjectile.DisplayName: Tururus Sword Projectile
