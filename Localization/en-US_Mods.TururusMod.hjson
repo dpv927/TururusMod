@@ -1,26 +1,18 @@
 Items: {
-	TururusAxe: {
-		DisplayName: Tururu's Axe
-		Tooltip: Looks like an axe, uh?
-	}
-
 	TururusSword: {
 		DisplayName: Tururu's Sword
 		Tooltip: Looks like a sword, uh?
-	}
-
-	TururusWarAxe: {
-		DisplayName: Tururu's War Axe
-		Tooltip: Looks like an ancient axe, uh?
 	}
 
 	TururusCannon: {
 		DisplayName: Tururu's Cannon
 		Tooltip: That's a huge cannon, uh?
 	}
+}
 
-	TururusStaff: {
-		DisplayName: Tururu's Staff
-		Tooltip: Looks like a staff, uh?
-	}
+Projectiles: {
+	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
+	IronBullet.DisplayName: Iron Bullet
+	CannonBullet.DisplayName: Cannon Bullet
+	GelBulletProjectile.DisplayName: Gel Bullet Projectile
 }
