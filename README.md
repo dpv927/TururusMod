@@ -4,8 +4,8 @@
 
 | Aspecto | Nombre |
 | ------- | ------ |
-| <img src='Items/TururusSword.png'>  | Tururu's Sword  |
-| <img src='Items/TururusCannon.png'> | Tururu's Cannon |
+| <img src='Items/Weapons/TururusSword.png'>  | Tururu's Sword  |
+| <img src='Items/Weapons/TururusCannon.png'> | Tururu's Cannon |
 
 # NPCs
 
