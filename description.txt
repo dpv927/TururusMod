@@ -1,1 +1,1 @@
-Tururu's Mod is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+It is a mod that adds various items such as weapons, ammunition, materials and an NPC that helps you to get these items.

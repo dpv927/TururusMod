@@ -1,9 +1,5 @@
-using Terraria.Audio;
-using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 
 namespace TururusMod.Projectiles {
 
@@ -37,10 +33,6 @@ namespace TururusMod.Projectiles {
             float rotateSpeed = 0.35f * (float)Projectile.direction;
             Projectile.rotation += rotateSpeed;
             Lighting.AddLight(Projectile.Center, 0.75f, 0.75f, 0.75f);
-        }
-
-        public override void Kill(int timeLeft) {
-			SoundEngine.PlaySound(SoundID.Dig.WithVolumeScale(0.5f).WithPitchOffset(0.8f), Projectile.position);
         }
     }
 }
