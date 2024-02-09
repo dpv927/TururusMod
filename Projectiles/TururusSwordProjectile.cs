@@ -10,12 +10,14 @@ namespace TururusMod.Projectiles {
 			Projectile.width = 113;
 			Projectile.height = 112;
 			Projectile.aiStyle = -1;
-            Projectile.timeLeft = 99999;
+            Projectile.timeLeft = 600;
 			Projectile.friendly = true;
 			Projectile.hostile = false;
 			Projectile.ignoreWater = true;
 			Projectile.tileCollide = false;
-		}
+            Projectile.penetrate = 100;
+            Projectile.light = 0.8f;
+        }
 
         public override void AI() {
             Projectile.ai[0]++;
@@ -24,8 +26,7 @@ namespace TururusMod.Projectiles {
                 Projectile.velocity *= 1.01f;
             } else {
                 Projectile.velocity *= 1.05f;
-                if(Projectile.ai[0] >= 180)
-                {
+                if(Projectile.ai[0] >= 180) {
                     Projectile.Kill();
                 }
             }
