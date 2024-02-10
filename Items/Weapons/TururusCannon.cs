@@ -14,12 +14,12 @@ namespace TururusMod.Items.Weapons {
             Item.width = 59;
             Item.height = 83;
             Item.autoReuse = true;
-            Item.damage = 1100;
+            Item.damage = 2300;
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 4f;
             Item.noMelee = true;
             Item.rare = ItemRarityID.Purple;
-            Item.shootSpeed = 30f;
+            Item.shootSpeed = 15f;
             Item.useAnimation = 7;
             Item.useTime = 7;
             Item.UseSound = SoundID.Item11;
@@ -40,7 +40,7 @@ namespace TururusMod.Items.Weapons {
         }
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
-            Vector2 offset = new Vector2(velocity.X * 3, velocity.Y * 3);
+            Vector2 offset = new Vector2(velocity.X * 10, velocity.Y * 10);
             position += offset;
             return true;
         }

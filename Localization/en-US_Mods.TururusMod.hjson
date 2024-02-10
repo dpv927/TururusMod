@@ -8,6 +8,14 @@ Items: {
 		DisplayName: Tururu's Cannon
 		Tooltip: That's a huge cannon, uh?
 	}
+
+	CannonBullet: {
+		Tooltip: ""
+		DisplayName: Cannon Bullet
+	}
 }
 
-Projectiles.TururusSwordProjectile.DisplayName: Tururus Sword Projectile
+Projectiles: {
+	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
+	CannonProjectile.DisplayName: Cannon Projectile
+}

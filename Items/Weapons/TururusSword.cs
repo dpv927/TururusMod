@@ -11,16 +11,16 @@ namespace TururusMod.Items.Weapons {
 
         public override void SetDefaults() {
             Item.damage = 3000;
-            Item.useAnimation = 12;
+            Item.useAnimation = 10;
             Item.width = 113;
             Item.height = 112;
             Item.useTime = 12;
             Item.DamageType = DamageClass.Melee;
-            Item.useStyle = ItemUseStyleID.Rapier;
+            Item.useStyle = ItemUseStyleID.Swing;
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
+            Item.rare = ItemRarityID.Purple;
             Item.knockBack = 30;
-            Item.rare = -12;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
             Item.shoot = ModContent.ProjectileType<TururusSwordProjectile>();
