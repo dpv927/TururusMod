@@ -1,21 +1,27 @@
 Items: {
 	TururusSword: {
 		DisplayName: Tururu's Sword
-		Tooltip: Looks like a sword, uh?
+		Tooltip: Looks like a sword, huh?
 	}
 
 	TururusCannon: {
 		DisplayName: Tururu's Cannon
-		Tooltip: That's a huge cannon, uh?
+		Tooltip: That's a huge cannon, huh?
 	}
 
 	CannonBullet: {
-		Tooltip: ""
 		DisplayName: Cannon Bullet
+		Tooltip: A type of bullet that could be used for a canon
+	}
+
+	TururusGenesis: {
+		DisplayName: Tururu's Genesis
+		Tooltip: Looks like a book, huh?
 	}
 }
 
 Projectiles: {
 	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
 	CannonProjectile.DisplayName: Cannon Projectile
+	GenesisProjectile.DisplayName: Genesis Projectile
 }

@@ -18,7 +18,7 @@ namespace TururusMod.Projectiles {
             Projectile.hostile = false;
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.penetrate = 1;
-            Projectile.timeLeft = 900;
+            Projectile.timeLeft = 180;
             Projectile.light = 2f;
             Projectile.ignoreWater = true;
             Projectile.tileCollide = true;
