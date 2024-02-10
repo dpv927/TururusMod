@@ -4,13 +4,16 @@ using Terraria.ModLoader;
 using Terraria;
 using Microsoft.Xna.Framework;
 using TururusMod.Items.Ammo;
-using TururusMod.Projectiles;
+using TururusMod.Projectiles.Ranged;
 
-namespace TururusMod.Items.Weapons {
+namespace TururusMod.Items.Weapons.Ranged
+{
 
-    public class TururusCannon : ModItem {
+    public class TururusCannon : ModItem
+    {
 
-        public override void SetDefaults() {
+        public override void SetDefaults()
+        {
             Item.width = 59;
             Item.height = 83;
             Item.autoReuse = true;
@@ -30,7 +33,8 @@ namespace TururusMod.Items.Weapons {
             Item.useAmmo = ModContent.ItemType<CannonBullet>();
         }
 
-        public override void AddRecipes() {
+        public override void AddRecipes()
+        {
             CreateRecipe().
                 AddIngredient(ItemID.TinBar, 2)
                 .AddIngredient(ItemID.TungstenBar, 2)
@@ -39,13 +43,15 @@ namespace TururusMod.Items.Weapons {
                 .Register();
         }
 
-        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        {
             Vector2 offset = new Vector2(velocity.X * 10, velocity.Y * 10);
             position += offset;
             return true;
         }
 
-        public override Vector2? HoldoutOffset() {
+        public override Vector2? HoldoutOffset()
+        {
             Vector2 offset = new Vector2(6, 0);
             return offset;
         }

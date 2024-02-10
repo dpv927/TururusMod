@@ -1,9 +1,10 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using TururusMod.Projectiles;
+using TururusMod.Projectiles.Ranged;
 
-namespace TururusMod.Items.Ammo {
+namespace TururusMod.Items.Ammo
+{
 
     public class CannonBullet : ModItem {
 

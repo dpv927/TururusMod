@@ -24,4 +24,5 @@ Projectiles: {
 	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
 	CannonProjectile.DisplayName: Cannon Projectile
 	GenesisProjectile.DisplayName: Genesis Projectile
+	SwordProjectile.DisplayName: Sword Projectile
 }

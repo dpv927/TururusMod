@@ -5,11 +5,14 @@ using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace TururusMod.Projectiles {
+namespace TururusMod.Projectiles.Magic
+{
 
-    public class GenesisProjectile : ModProjectile {
+    public class GenesisProjectile : ModProjectile
+    {
 
-        public override void SetDefaults() {
+        public override void SetDefaults()
+        {
             Projectile.width = 60;
             Projectile.height = 60;
             Projectile.alpha = 255;
@@ -24,17 +27,20 @@ namespace TururusMod.Projectiles {
             Projectile.idStaticNPCHitCooldown = 5;
         }
 
-        public override void AI() {
+        public override void AI()
+        {
             if (Projectile.ai[1] == 1f)
                 Projectile.penetrate = -1;
 
             Projectile.localAI[1] += 1f;
-            if (Projectile.localAI[1] > 10f && Main.rand.NextBool(3)) {
+            if (Projectile.localAI[1] > 10f && Main.rand.NextBool(3))
+            {
                 int dustAmt = 6;
 
-                for (int i = 0; i < dustAmt; ++i) {
-                    Vector2 dustRotation = (Vector2.Normalize(Projectile.velocity) * new Vector2((float)Projectile.width, (float)Projectile.height) / 2f).RotatedBy((double)(i - (dustAmt / 2 - 1)) * Math.PI / (double)dustAmt, new Vector2()) + Projectile.Center;
-                    Vector2 randomRotation = ((Main.rand.NextFloat() * MathHelper.Pi) - MathHelper.PiOver2).ToRotationVector2() * (float)Main.rand.Next(3, 8);
+                for (int i = 0; i < dustAmt; ++i)
+                {
+                    Vector2 dustRotation = (Vector2.Normalize(Projectile.velocity) * new Vector2(Projectile.width, Projectile.height) / 2f).RotatedBy((i - (dustAmt / 2 - 1)) * Math.PI / dustAmt, new Vector2()) + Projectile.Center;
+                    Vector2 randomRotation = (Main.rand.NextFloat() * MathHelper.Pi - MathHelper.PiOver2).ToRotationVector2() * Main.rand.Next(3, 8);
                     int nuclearDust = Dust.NewDust(dustRotation + randomRotation, 0, 0, DustID.BloodWater, randomRotation.X * 2f, randomRotation.Y * 2f, 100, new Color(), 1.4f);
                     Dust dust = Main.dust[nuclearDust];
                     dust.noGravity = true;
@@ -54,30 +60,36 @@ namespace TururusMod.Projectiles {
             int npcID = -1;
             Vector2 targetVec = Projectile.Center;
             float maxDistance = 500f;
-            
-            if (Projectile.localAI[0] > 0f) {
+
+            if (Projectile.localAI[0] > 0f)
+            {
                 Projectile.localAI[0] -= 1f;
-            } 
-            if (Projectile.ai[0] == 0f && Projectile.localAI[0] == 0f) {
-                for (int index = 0; index < Main.maxNPCs; ++index) {
+            }
+            if (Projectile.ai[0] == 0f && Projectile.localAI[0] == 0f)
+            {
+                for (int index = 0; index < Main.maxNPCs; ++index)
+                {
                     NPC npc = Main.npc[index];
 
-                    if (npc.CanBeChasedBy(Projectile, false) && (Projectile.ai[0] == 0f || Projectile.ai[0] == (index + 1f))) {
-                        float extraDistance = (npc.width / 2) + (npc.height / 2);
+                    if (npc.CanBeChasedBy(Projectile, false) && (Projectile.ai[0] == 0f || Projectile.ai[0] == index + 1f))
+                    {
+                        float extraDistance = npc.width / 2 + npc.height / 2;
 
                         bool canHit = true;
                         if (extraDistance < maxDistance)
                             canHit = Collision.CanHit(Projectile.Center, 1, 1, npc.Center, 1, 1);
 
                         float npcDist = Vector2.Distance(npc.Center, targetVec);
-                        if (npcDist < (maxDistance + extraDistance) && canHit) {
+                        if (npcDist < maxDistance + extraDistance && canHit)
+                        {
                             maxDistance = npcDist;
                             targetVec = npc.Center;
                             npcID = index;
                         }
                     }
                 }
-                if (npcID >= 0) {
+                if (npcID >= 0)
+                {
                     Projectile.ai[0] = npcID + 1f;
                     Projectile.netUpdate = true;
                 }
@@ -87,21 +99,26 @@ namespace TururusMod.Projectiles {
                 Projectile.localAI[0] = 30f;
             bool isHoming = false;
 
-            if (Projectile.ai[0] != 0f) {
+            if (Projectile.ai[0] != 0f)
+            {
                 int index = (int)(Projectile.ai[0] - 1);
-                if (Main.npc[index].active && !Main.npc[index].dontTakeDamage) {
-                    if ((Math.Abs(Projectile.Center.X - Main.npc[index].Center.X) + Math.Abs(Projectile.Center.Y - Main.npc[index].Center.Y)) < 1000f) {
+                if (Main.npc[index].active && !Main.npc[index].dontTakeDamage)
+                {
+                    if (Math.Abs(Projectile.Center.X - Main.npc[index].Center.X) + Math.Abs(Projectile.Center.Y - Main.npc[index].Center.Y) < 1000f)
+                    {
                         isHoming = true;
                         targetVec = Main.npc[index].Center;
                     }
                 }
-                else {
+                else
+                {
                     Projectile.ai[0] = 0f;
                     isHoming = false;
                     Projectile.netUpdate = true;
                 }
             }
-            if (isHoming) {
+            if (isHoming)
+            {
                 double homeVelocity = (double)(targetVec - Projectile.Center).ToRotation() - (double)Projectile.velocity.ToRotation();
                 if (homeVelocity > Math.PI)
                     homeVelocity -= 2.0 * Math.PI;

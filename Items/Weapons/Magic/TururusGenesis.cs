@@ -4,13 +4,16 @@ using Terraria.ModLoader;
 using Terraria;
 using Microsoft.Xna.Framework;
 using TururusMod.Items.Ammo;
-using TururusMod.Projectiles;
+using TururusMod.Projectiles.Magic;
 
-namespace TururusMod.Items.Weapons {
+namespace TururusMod.Items.Weapons.Magic
+{
 
-    public class TururusGenesis : ModItem {
+    public class TururusGenesis : ModItem
+    {
 
-        public override void SetDefaults() {
+        public override void SetDefaults()
+        {
             Item.width = 76;
             Item.height = 63;
             Item.autoReuse = true;
@@ -31,7 +34,8 @@ namespace TururusMod.Items.Weapons {
             Item.shoot = ModContent.ProjectileType<GenesisProjectile>();
         }
 
-        public override void AddRecipes() {
+        public override void AddRecipes()
+        {
             CreateRecipe().
                 AddIngredient(ItemID.TinBar, 2)
                 .AddIngredient(ItemID.TungstenBar, 2)
@@ -40,9 +44,11 @@ namespace TururusMod.Items.Weapons {
                 .Register();
         }
 
-        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
-            for (int i = 0; i < 5; i++) {
-                Vector2 ringVelocity = ((MathHelper.TwoPi * i / 5f) + velocity.ToRotation()).ToRotationVector2() * velocity.Length() * 0.5f;
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Vector2 ringVelocity = (MathHelper.TwoPi * i / 5f + velocity.ToRotation()).ToRotationVector2() * velocity.Length() * 0.5f;
                 Projectile.NewProjectile(source, position, ringVelocity, type, damage, knockback, Main.myPlayer, 0f, 0f);
             }
             return false;
