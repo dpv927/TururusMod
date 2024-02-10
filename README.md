@@ -4,9 +4,9 @@
 
 | Aspecto | Nombre | Tipo de Daño | 
 | ------- | ------ | ------- |
-| <img src='Items/Weapons/TururusSword.png'>  | Tururu's Sword    | Melee  | 
-| <img src='Items/Weapons/TururusCannon.png'> | Tururu's Cannon   | Ranged |
-| <img src='Items/Weapons/TururusGenesis.png'> | Tururu's Genesis | Magic  |  
+| <img src='Items/Weapons/TururusSword.png'>   | <a href="Items/Weapons/TururusSword.cs">Tururu's Sword</a>     | Melee  | 
+| <img src='Items/Weapons/TururusCannon.png'>  | <a href="Items/Weapons/TururusCannon.cs">Tururu's Cannon</a>   | Ranged |
+| <img src='Items/Weapons/TururusGenesis.png'> | <a href="Items/Weapons/TururusGenesis.cs">Tururu's Genesis</a> | Magic  |  
 
 # NPCs
 
