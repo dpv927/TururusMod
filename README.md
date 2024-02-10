@@ -2,11 +2,11 @@
 
 # Armas
 
-| Aspecto | Nombre |
-| ------- | ------ |
-| <img src='Items/Weapons/TururusSword.png'>  | Tururu's Sword  |
-| <img src='Items/Weapons/TururusCannon.png'> | Tururu's Cannon |
-| <img src='Items/Weapons/TururusGenesis.png'> | Tururu's Genesis |
+| Aspecto | Nombre | Tipo de Daño | 
+| ------- | ------ | ------- |
+| <img src='Items/Weapons/TururusSword.png'>  | Tururu's Sword    | Melee  | 
+| <img src='Items/Weapons/TururusCannon.png'> | Tururu's Cannon   | Ranged |
+| <img src='Items/Weapons/TururusGenesis.png'> | Tururu's Genesis | Magic  |  
 
 # NPCs
 
@@ -22,6 +22,6 @@
 
 - [x] Arma para Melee
 - [x] Arma para Ranged 
-- [ ] Arma para Magic
+- [x] Arma para Magic
 - [ ] Un NPC
 - [ ] Un traje vanity
