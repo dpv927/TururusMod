@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using TururusMod.Projectiles.Ranged;
+using TururusMod.Rarities;
 
 namespace TururusMod.Items.Ammo
 {
@@ -20,7 +21,7 @@ namespace TururusMod.Items.Ammo
             Item.value = Item.buyPrice(gold: 1);
             Item.shoot = ModContent.ProjectileType<TururusCannonProjectile>();
             Item.shootSpeed = 15f;
-            Item.rare = ItemRarityID.Purple;
+            Item.rare = ModContent.RarityType<FlamingTururu>();
             Item.ammo = Item.type;
         }
 

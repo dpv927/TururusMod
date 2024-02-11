@@ -2,6 +2,7 @@
 using Terraria.ModLoader;
 using Terraria;
 using TururusMod.Projectiles.Melee;
+using TururusMod.Rarities;
 
 namespace TururusMod.Items.Weapons.Melee {
 
@@ -20,7 +21,7 @@ namespace TururusMod.Items.Weapons.Melee {
             Item.DamageType = DamageClass.MeleeNoSpeed;
             Item.knockBack = 3.5f;
             Item.channel = true;
-            Item.rare = ItemRarityID.Purple;
+            Item.rare = ModContent.RarityType<FlamingTururu>();
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
             Item.shoot = ModContent.ProjectileType<TururusYoyoProjectile>();

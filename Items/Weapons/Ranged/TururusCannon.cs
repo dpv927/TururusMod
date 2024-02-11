@@ -5,6 +5,7 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using TururusMod.Items.Ammo;
 using TururusMod.Projectiles.Ranged;
+using TururusMod.Rarities;
 
 namespace TururusMod.Items.Weapons.Ranged
 {
@@ -21,7 +22,7 @@ namespace TururusMod.Items.Weapons.Ranged
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 4f;
             Item.noMelee = true;
-            Item.rare = ItemRarityID.Purple;
+            Item.rare = ModContent.RarityType<FlamingTururu>();
             Item.shootSpeed = 15f;
             Item.useAnimation = 7;
             Item.useTime = 7;
