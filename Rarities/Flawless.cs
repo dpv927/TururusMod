@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace TururusMod.Rarities {
 
-    public class FlamingTururu : ModRarity {
+    public class Flawless : ModRarity {
         public override Color RarityColor => new Color(Main.DiscoR, Main.DiscoG, Main.DiscoB);
     }
 }

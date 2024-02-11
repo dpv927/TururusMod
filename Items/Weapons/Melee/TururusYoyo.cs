@@ -21,7 +21,7 @@ namespace TururusMod.Items.Weapons.Melee {
             Item.DamageType = DamageClass.MeleeNoSpeed;
             Item.knockBack = 3.5f;
             Item.channel = true;
-            Item.rare = ModContent.RarityType<FlamingTururu>();
+            Item.rare = ModContent.RarityType<Flawless>();
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
             Item.shoot = ModContent.ProjectileType<TururusYoyoProjectile>();

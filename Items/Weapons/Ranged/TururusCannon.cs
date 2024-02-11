@@ -19,7 +19,7 @@ namespace TururusMod.Items.Weapons.Ranged {
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 4f;
             Item.noMelee = true;
-            Item.rare = ModContent.RarityType<FlamingTururu>();
+            Item.rare = ModContent.RarityType<Flawless>();
             Item.shootSpeed = 15f;
             Item.useAnimation = 7;
             Item.useTime = 7;

@@ -20,7 +20,7 @@ namespace TururusMod.Items.Ammo {
             Item.value = Item.buyPrice(gold: 1);
             Item.shoot = ModContent.ProjectileType<TururusCannonProjectile>();
             Item.shootSpeed = 15f;
-            Item.rare = ModContent.RarityType<FlamingTururu>();
+            Item.rare = ModContent.RarityType<Flawless>();
             Item.ammo = Item.type;
         }
 

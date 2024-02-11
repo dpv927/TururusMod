@@ -25,7 +25,7 @@ namespace TururusMod.Items.Weapons.Magic {
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
             Item.UseSound = SoundID.NPCDeath60;
-            Item.rare = ModContent.RarityType<FlamingTururu>();
+            Item.rare = ModContent.RarityType<Flawless>();
             Item.shootSpeed = 8f;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.shoot = ModContent.ProjectileType<TururusGenesisProjectile>();

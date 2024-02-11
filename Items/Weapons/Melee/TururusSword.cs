@@ -20,7 +20,7 @@ namespace TururusMod.Items.Weapons.Melee {
             Item.useStyle = ItemUseStyleID.Swing;
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
-            Item.rare = ModContent.RarityType<FlamingTururu>();
+            Item.rare = ModContent.RarityType<Flawless>();
             Item.knockBack = 30;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;

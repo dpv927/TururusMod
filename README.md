@@ -1,8 +1,8 @@
 # Tururu's Mod
 
-# Armas
+# Weapons
 
-| Aspecto | Nombre | Tipo de Daño | Projectil |
+| Preview | Name | Damage Type | Projectiles | Rarity |
 | ------- | ------ | ------- | ------- |
 | <img src='Items/Weapons/Melee/TururusSword.png'>   | <a href="Items/Weapons/Melee/TururusSword.png">Tururu's Sword</a>    | Melee  | <img src='Projectiles/Melee/TururusSwordProjectile.png'>   |
 | <img src='Items/Weapons/Ranged/TururusCannon.png'> | <a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a>  | Ranged | <img src='Projectiles/Ranged/TururusCannonProjectile.png'> |
@@ -14,17 +14,17 @@
 | Aspecto | Nombre |
 | ------- | ------ |
 
-# Vanidad
+# Vanity
 
 | Aspecto | Nombre |
 | ------- | ------ |
 
 ## TODO List
 
-- [X] Arma para Melee
-- [X] Arma para Ranged 
-- [X] Arma para Magic
-- [X] Un Yoyo
-- [X] Un tipo de Rareza
-- [ ] Un NPC
-- [ ] Un traje vanity
+- [X] Melee Weapon
+- [X] Ranged Weapon 
+- [X] Magic Weapon
+- [X] Yoyo
+- [X] A new Rarity
+- [ ] A new NPC
+- [ ] A new vanity piece
