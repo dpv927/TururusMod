@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Dusts\BrightDust.png" />
+    <None Remove="Dusts\GenesisDust.png" />
     <None Remove="Items\CannonBullet.png" />
     <None Remove="Items\Weapons\Melee\TururusYoyo.png" />
     <None Remove="Projectiles\CannonProjectile.png" />

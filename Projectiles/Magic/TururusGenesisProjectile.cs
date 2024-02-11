@@ -4,15 +4,13 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
+using TururusMod.Dusts;
 
-namespace TururusMod.Projectiles.Magic
-{
+namespace TururusMod.Projectiles.Magic {
 
-    public class TururusGenesisProjectile : ModProjectile
-    {
+    public class TururusGenesisProjectile : ModProjectile {
 
-        public override void SetDefaults()
-        {
+        public override void SetDefaults() {
             Projectile.width = 60;
             Projectile.height = 60;
             Projectile.alpha = 255;
@@ -27,21 +25,18 @@ namespace TururusMod.Projectiles.Magic
             Projectile.idStaticNPCHitCooldown = 5;
         }
 
-        public override void AI()
-        {
+        public override void AI() {
             if (Projectile.ai[1] == 1f)
                 Projectile.penetrate = -1;
 
             Projectile.localAI[1] += 1f;
-            if (Projectile.localAI[1] > 10f && Main.rand.NextBool(3))
-            {
+            if (Projectile.localAI[1] > 10f && Main.rand.NextBool(3)) {
                 int dustAmt = 6;
 
-                for (int i = 0; i < dustAmt; ++i)
-                {
+                for (int i = 0; i < dustAmt; ++i) {
                     Vector2 dustRotation = (Vector2.Normalize(Projectile.velocity) * new Vector2(Projectile.width, Projectile.height) / 2f).RotatedBy((i - (dustAmt / 2 - 1)) * Math.PI / dustAmt, new Vector2()) + Projectile.Center;
                     Vector2 randomRotation = (Main.rand.NextFloat() * MathHelper.Pi - MathHelper.PiOver2).ToRotationVector2() * Main.rand.Next(3, 8);
-                    int nuclearDust = Dust.NewDust(dustRotation + randomRotation, 0, 0, DustID.BloodWater, randomRotation.X * 2f, randomRotation.Y * 2f, 100, new Color(), 1.4f);
+                    int nuclearDust = Dust.NewDust(dustRotation + randomRotation, 0, 0, ModContent.DustType<GenesisDust>(), randomRotation.X * 2f, randomRotation.Y * 2f, 100, new Color(), 0.8f);
                     Dust dust = Main.dust[nuclearDust];
                     dust.noGravity = true;
                     dust.noLight = true;
@@ -61,18 +56,14 @@ namespace TururusMod.Projectiles.Magic
             Vector2 targetVec = Projectile.Center;
             float maxDistance = 500f;
 
-            if (Projectile.localAI[0] > 0f)
-            {
+            if (Projectile.localAI[0] > 0f) {
                 Projectile.localAI[0] -= 1f;
             }
-            if (Projectile.ai[0] == 0f && Projectile.localAI[0] == 0f)
-            {
-                for (int index = 0; index < Main.maxNPCs; ++index)
-                {
+            if (Projectile.ai[0] == 0f && Projectile.localAI[0] == 0f) {
+                for (int index = 0; index < Main.maxNPCs; ++index) {
                     NPC npc = Main.npc[index];
 
-                    if (npc.CanBeChasedBy(Projectile, false) && (Projectile.ai[0] == 0f || Projectile.ai[0] == index + 1f))
-                    {
+                    if (npc.CanBeChasedBy(Projectile, false) && (Projectile.ai[0] == 0f || Projectile.ai[0] == index + 1f)) {
                         float extraDistance = npc.width / 2 + npc.height / 2;
 
                         bool canHit = true;
@@ -80,16 +71,14 @@ namespace TururusMod.Projectiles.Magic
                             canHit = Collision.CanHit(Projectile.Center, 1, 1, npc.Center, 1, 1);
 
                         float npcDist = Vector2.Distance(npc.Center, targetVec);
-                        if (npcDist < maxDistance + extraDistance && canHit)
-                        {
+                        if (npcDist < maxDistance + extraDistance && canHit) {
                             maxDistance = npcDist;
                             targetVec = npc.Center;
                             npcID = index;
                         }
                     }
                 }
-                if (npcID >= 0)
-                {
+                if (npcID >= 0) {
                     Projectile.ai[0] = npcID + 1f;
                     Projectile.netUpdate = true;
                 }
@@ -99,26 +88,21 @@ namespace TururusMod.Projectiles.Magic
                 Projectile.localAI[0] = 30f;
             bool isHoming = false;
 
-            if (Projectile.ai[0] != 0f)
-            {
+            if (Projectile.ai[0] != 0f) {
                 int index = (int)(Projectile.ai[0] - 1);
-                if (Main.npc[index].active && !Main.npc[index].dontTakeDamage)
-                {
-                    if (Math.Abs(Projectile.Center.X - Main.npc[index].Center.X) + Math.Abs(Projectile.Center.Y - Main.npc[index].Center.Y) < 1000f)
-                    {
+                if (Main.npc[index].active && !Main.npc[index].dontTakeDamage) {
+                    if (Math.Abs(Projectile.Center.X - Main.npc[index].Center.X) + Math.Abs(Projectile.Center.Y - Main.npc[index].Center.Y) < 1000f) {
                         isHoming = true;
                         targetVec = Main.npc[index].Center;
                     }
                 }
-                else
-                {
+                else {
                     Projectile.ai[0] = 0f;
                     isHoming = false;
                     Projectile.netUpdate = true;
                 }
             }
-            if (isHoming)
-            {
+            if (isHoming) {
                 double homeVelocity = (double)(targetVec - Projectile.Center).ToRotation() - (double)Projectile.velocity.ToRotation();
                 if (homeVelocity > Math.PI)
                     homeVelocity -= 2.0 * Math.PI;
@@ -131,19 +115,16 @@ namespace TururusMod.Projectiles.Magic
             Projectile.velocity = Projectile.velocity * (projSpeed + 1f / 400f);
         }
 
-        public override void OnKill(int timeLeft)
-        {
+        public override void OnKill(int timeLeft) {
             SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
-            for (int k = 0; k < 5; k++)
-            {
+            for (int k = 0; k < 5; k++) {
                 int dust = Dust.NewDust(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height, 34, 0f, 0f);
                 Main.dust[dust].velocity *= 0f;
                 Main.dust[dust].noGravity = true;
             }
         }
 
-        public override Color? GetAlpha(Color lightColor)
-        {
+        public override Color? GetAlpha(Color lightColor) {
             return new Color(200, 200, 200, 200);
         }
     }

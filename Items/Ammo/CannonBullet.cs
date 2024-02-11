@@ -4,8 +4,7 @@ using Terraria.ModLoader;
 using TururusMod.Projectiles.Ranged;
 using TururusMod.Rarities;
 
-namespace TururusMod.Items.Ammo
-{
+namespace TururusMod.Items.Ammo {
 
     public class CannonBullet : ModItem {
 
