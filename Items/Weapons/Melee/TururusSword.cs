@@ -26,7 +26,7 @@ namespace TururusMod.Items.Weapons.Melee
             Item.knockBack = 30;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
-            Item.shoot = ModContent.ProjectileType<SwordProjectile>();
+            Item.shoot = ModContent.ProjectileType<TururusSwordProjectile>();
             Item.shootSpeed = 30f;
         }
 
@@ -34,7 +34,7 @@ namespace TururusMod.Items.Weapons.Melee
         {
             Vector2 offset = new Vector2(velocity.X * 5, velocity.Y * 5);
             position += offset;
-            type = ModContent.ProjectileType<SwordProjectile>();
+            type = ModContent.ProjectileType<TururusSwordProjectile>();
 
             for (var i = 0; i < Main.rand.Next(3, 4); i++)
             {

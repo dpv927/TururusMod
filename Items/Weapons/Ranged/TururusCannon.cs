@@ -29,7 +29,7 @@ namespace TururusMod.Items.Weapons.Ranged
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.value = Item.sellPrice(copper: 1, silver: 9);
             Item.value = Item.buyPrice(gold: 1);
-            Item.shoot = ModContent.ProjectileType<CannonProjectile>();
+            Item.shoot = ModContent.ProjectileType<TururusCannonProjectile>();
             Item.useAmmo = ModContent.ItemType<CannonBullet>();
         }
 

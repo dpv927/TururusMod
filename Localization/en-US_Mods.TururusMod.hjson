@@ -18,6 +18,11 @@ Items: {
 		DisplayName: Tururu's Genesis
 		Tooltip: Looks like a book, huh?
 	}
+
+	TururusYoyo: {
+		DisplayName: Tururu's Yoyo
+		Tooltip: Looks like a yoyo, huh?
+	}
 }
 
 Projectiles: {
@@ -25,4 +30,7 @@ Projectiles: {
 	CannonProjectile.DisplayName: Cannon Projectile
 	GenesisProjectile.DisplayName: Genesis Projectile
 	SwordProjectile.DisplayName: Sword Projectile
+	TururusCannonProjectile.DisplayName: Tururus Cannon Projectile
+	TururusYoyoProjectile.DisplayName: Tururus Yoyo Projectile
+	TururusGenesisProjectile.DisplayName: Tururus Genesis Projectile
 }

@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 namespace TururusMod.Projectiles.Ranged
 {
 
-    internal class CannonProjectile : ModProjectile
+    internal class TururusCannonProjectile : ModProjectile
     {
 
         public override void SetDefaults()

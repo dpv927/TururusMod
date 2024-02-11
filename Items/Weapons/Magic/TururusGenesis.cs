@@ -31,7 +31,7 @@ namespace TururusMod.Items.Weapons.Magic
             Item.rare = ItemRarityID.Purple;
             Item.shootSpeed = 8f;
             Item.useStyle = ItemUseStyleID.Shoot;
-            Item.shoot = ModContent.ProjectileType<GenesisProjectile>();
+            Item.shoot = ModContent.ProjectileType<TururusGenesisProjectile>();
         }
 
         public override void AddRecipes()

@@ -18,7 +18,7 @@ namespace TururusMod.Items.Ammo
             Item.knockBack = 15f;
             Item.value = Item.sellPrice(copper:1);
             Item.value = Item.buyPrice(gold: 1);
-            Item.shoot = ModContent.ProjectileType<CannonProjectile>();
+            Item.shoot = ModContent.ProjectileType<TururusCannonProjectile>();
             Item.shootSpeed = 15f;
             Item.rare = ItemRarityID.Purple;
             Item.ammo = Item.type;

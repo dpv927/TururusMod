@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 namespace TururusMod.Projectiles.Magic
 {
 
-    public class GenesisProjectile : ModProjectile
+    public class TururusGenesisProjectile : ModProjectile
     {
 
         public override void SetDefaults()

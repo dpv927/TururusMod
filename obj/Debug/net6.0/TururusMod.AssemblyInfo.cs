@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TururusMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5991f0de1778e81ec8e14333ce13b248b02a9a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d660789b812754f0d77d6a300ad4143c3444bae")]
 [assembly: System.Reflection.AssemblyProductAttribute("TururusMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TururusMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

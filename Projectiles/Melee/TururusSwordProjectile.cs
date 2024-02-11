@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 namespace TururusMod.Projectiles.Melee
 {
 
-    public class SwordProjectile : ModProjectile
+    public class TururusSwordProjectile : ModProjectile
     {
 
         public override void SetDefaults()
