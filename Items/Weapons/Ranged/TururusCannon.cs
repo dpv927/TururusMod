@@ -47,7 +47,7 @@ namespace TururusMod.Items.Weapons.Ranged {
         }
 
         public override Vector2? HoldoutOffset() {
-            Vector2 offset = new Vector2(6, 0);
+            Vector2 offset = new Vector2(0, -5);
             return offset;
         }
     }

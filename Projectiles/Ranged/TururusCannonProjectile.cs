@@ -6,14 +6,11 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TururusMod.Projectiles.Ranged
-{
+namespace TururusMod.Projectiles.Ranged {
 
-    internal class TururusCannonProjectile : ModProjectile
-    {
+    public class TururusCannonProjectile : ModProjectile {
 
-        public override void SetDefaults()
-        {
+        public override void SetDefaults() {
             Projectile.width = 8;
             Projectile.height = 8;
             Projectile.aiStyle = 1;
@@ -29,14 +26,12 @@ namespace TururusMod.Projectiles.Ranged
             AIType = ProjectileID.Bullet;
         }
 
-        public override bool PreDraw(ref Color lightColor)
-        {
+        public override bool PreDraw(ref Color lightColor) {
             Main.instance.LoadProjectile(Projectile.type);
             Texture2D texture = TextureAssets.Projectile[Projectile.type].Value;
 
             Vector2 drawOrigin = new Vector2(texture.Width * 0.5f, Projectile.height * 0.5f);
-            for (int k = 0; k < Projectile.oldPos.Length; k++)
-            {
+            for (int k = 0; k < Projectile.oldPos.Length; k++) {
                 Vector2 drawPos = Projectile.oldPos[k] - Main.screenPosition + drawOrigin + new Vector2(0f, Projectile.gfxOffY);
                 Color color = Projectile.GetAlpha(lightColor) * ((Projectile.oldPos.Length - k) / (float)Projectile.oldPos.Length);
                 Main.EntitySpriteDraw(texture, drawPos, null, color, Projectile.rotation, drawOrigin, Projectile.scale, SpriteEffects.None, 0);
@@ -44,8 +39,7 @@ namespace TururusMod.Projectiles.Ranged
             return true;
         }
 
-        public override void OnKill(int timeLeft)
-        {
+        public override void OnKill(int timeLeft) {
             Collision.HitTiles(Projectile.position + Projectile.velocity, Projectile.velocity, Projectile.width, Projectile.height);
             SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
         }

@@ -18,7 +18,6 @@ namespace TururusMod.Dusts {
 
             if (dust.scale < 0.5f)
                 dust.active = false;
-
             return false;
         }
     }
