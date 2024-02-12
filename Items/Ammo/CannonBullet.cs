@@ -17,7 +17,7 @@ namespace TururusMod.Items.Ammo {
             Item.consumable = true;
             Item.knockBack = 15f;
             Item.value = Item.sellPrice(copper:1);
-            Item.value = Item.buyPrice(gold: 1);
+            Item.value = Item.buyPrice(copper: 1);
             Item.shoot = ModContent.ProjectileType<TururusCannonProjectile>();
             Item.shootSpeed = 15f;
             Item.rare = ModContent.RarityType<Flawless>();
