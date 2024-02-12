@@ -11,13 +11,10 @@
 
 # NPCs
 
-| Aspecto | Nombre |
+| Preview | Name |
 | ------- | ------ |
+| <img src='NPCs/tururu_example.png'> | <a href="NPCs//Tururu.cs">Tururu</a> | 
 
-# Vanity
-
-| Aspecto | Nombre |
-| ------- | ------ |
 
 ## TODO List
 
@@ -27,4 +24,3 @@
 - [X] Yoyo
 - [X] A new Rarity
 - [ ] A new NPC
-- [ ] A new vanity piece
