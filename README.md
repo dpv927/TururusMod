@@ -13,7 +13,7 @@
 
 | Preview | Name |
 | ------- | ------ |
-| <img src='NPCs/tururu_example.png'> | <a href="NPCs//Tururu.cs">Tururu</a> | 
+| <img src='NPCs/tururu_example.png' height='80px'> | <a href="NPCs//Tururu.cs">Tururu</a> | 
 
 
 ## TODO List
