@@ -26,3 +26,4 @@
 - [X] A new Rarity
 - [ ] A new NPC
 - [ ] A new Accessory
+- [ ] A new pet
