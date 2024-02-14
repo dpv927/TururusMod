@@ -21,8 +21,8 @@
 - [X] Melee Weapon
 - [X] Ranged Weapon 
 - [X] Magic Weapon
-- [X] Yoyo
 - [ ] Summon Staff
+- [X] Yoyo
 - [X] A new Rarity
 - [ ] A new NPC
 - [ ] A new Accessory
