@@ -49,7 +49,7 @@ namespace TururusMod.NPCs {
         }
 
         public override List<string> SetNPCNameList() {
-            return new List<string> { "Tururu" };
+            return new List<string> { "Pimpollo" };
         }
 
         public override void SetChatButtons(ref string button, ref string button2) {
@@ -77,7 +77,8 @@ namespace TururusMod.NPCs {
                 "Dile al tal 'Paco' que encienda el Fornais.",
                 "Vete que hueles a filete.",
                 "Persona 5 Dancing in the Moonlight Goty of the year del año",
-                "Menuda cochinada"
+                "Menuda cochinada",
+                "No lo diga!"
             };
             return options[Main.rand.Next(options.Count)];
         }
