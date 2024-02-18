@@ -25,6 +25,6 @@
 - [X] Yoyo
 - [ ] A boomerang
 - [X] A new Rarity
-- [ ] A new NPC
+- [X] A new NPC
 - [ ] A new Accessory
 - [ ] A new pet
