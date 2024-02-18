@@ -12,6 +12,7 @@
     <None Remove="Dusts\GenesisDust.png" />
     <None Remove="Items\CannonBullet.png" />
     <None Remove="Items\Weapons\Melee\TururusYoyo.png" />
+    <None Remove="Items\Weapons\Summon\TururusStaff.png" />
     <None Remove="NPCs\Tururu.png" />
     <None Remove="NPCs\Tururu_Head.png" />
     <None Remove="Projectiles\CannonProjectile.png" />
