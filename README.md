@@ -23,7 +23,8 @@
 - [X] Magic Weapon
 - [ ] Summon Staff
 - [X] Yoyo
+- [ ] Boomerang
 - [X] A new Rarity
-- [ ] A new NPC
+- [X] A new NPC
 - [ ] A new Accessory
 - [ ] A new pet
