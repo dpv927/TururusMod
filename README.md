@@ -8,7 +8,7 @@
 | <img src='Items/Weapons/Ranged/TururusCannon.png'> | <a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a>  | Ranged | <img src='Projectiles/Ranged/TururusCannonProjectile.png'> |
 | <img src='Items/Weapons/Magic/TururusGenesis.png'> | <a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Genesis</a> | Magic  | <img src='Projectiles/Magic/TururusGenesisProjectile.png'> | 
 | <img src='Items/Weapons/Melee/TururusYoyo.png'>    | <a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a>    | Melee  | <img src='Projectiles/Melee/TururusYoyoProjectile.png'>    |
-| <img src='Items/Weapons/Summon/TururusStaff.png'>  | <a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a>   | Melee  | - |
+| <img src='Items/Weapons/Summon/TururusStaff.png'>  | <a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a>   | Summon | - |
 
 # NPCs
 
