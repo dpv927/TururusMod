@@ -6,6 +6,7 @@ using TururusMod.Items.Ammo;
 using TururusMod.Items.Weapons.Magic;
 using TururusMod.Items.Weapons.Melee;
 using TururusMod.Items.Weapons.Ranged;
+using TururusMod.Items.Weapons.Summon;
 
 namespace TururusMod.NPCs {
 
@@ -66,7 +67,8 @@ namespace TururusMod.NPCs {
                 .Add<TururusCannon>()
                 .Add<TururusGenesis>()
                 .Add<CannonBullet>()
-                .Add<TururusYoyo>();
+                .Add<TururusYoyo>()
+                .Add<TururusStaff>();
             shop.Register();
         }
 
