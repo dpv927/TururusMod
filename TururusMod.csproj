@@ -8,6 +8,7 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Buffs\MagicStarBuff.png" />
     <None Remove="Dusts\BrightDust.png" />
     <None Remove="Dusts\GenesisDust.png" />
     <None Remove="Items\CannonBullet.png" />
