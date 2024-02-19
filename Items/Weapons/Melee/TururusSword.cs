@@ -11,7 +11,7 @@ namespace TururusMod.Items.Weapons.Melee {
     public class TururusSword : ModItem {
 
         public override void SetDefaults() {
-            Item.damage = 3000;
+            Item.damage = 1010;
             Item.useAnimation = 10;
             Item.width = 113;
             Item.height = 112;

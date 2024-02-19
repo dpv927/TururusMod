@@ -50,7 +50,7 @@ namespace TururusMod.NPCs {
         }
 
         public override List<string> SetNPCNameList() {
-            return new List<string> { "Pimpollo" };
+            return new List<string> { "Tururu" };
         }
 
         public override void SetChatButtons(ref string button, ref string button2) {

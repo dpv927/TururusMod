@@ -32,7 +32,7 @@ namespace TururusMod.Projectiles.Melee {
                 }
             }
 
-            float rotateSpeed = 0.35f * Projectile.direction;
+            float rotateSpeed = 0.7f * Projectile.direction;
             Projectile.rotation += rotateSpeed;
             Lighting.AddLight(Projectile.Center, 0.75f, 0.75f, 0.75f);
         }

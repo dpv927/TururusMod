@@ -15,7 +15,7 @@ namespace TururusMod.Items.Weapons.Ranged {
             Item.width = 59;
             Item.height = 83;
             Item.autoReuse = true;
-            Item.damage = 2300;
+            Item.damage = 1450;
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 4f;
             Item.noMelee = true;

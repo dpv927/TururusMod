@@ -23,6 +23,11 @@ Items: {
 		DisplayName: Tururu's Yoyo
 		Tooltip: Looks like a yoyo, huh?
 	}
+
+	TururusStaff: {
+		Tooltip: ""
+		DisplayName: Tururus Staff
+	}
 }
 
 Projectiles: {
@@ -33,6 +38,7 @@ Projectiles: {
 	TururusCannonProjectile.DisplayName: Tururus Cannon Projectile
 	TururusYoyoProjectile.DisplayName: Tururus Yoyo Projectile
 	TururusGenesisProjectile.DisplayName: Tururus Genesis Projectile
+	MagicStar.DisplayName: Magic Star
 }
 
 NPCs: {
@@ -49,5 +55,12 @@ NPCs: {
 		}
 
 		DisplayName: Tururu
+	}
+}
+
+Buffs: {
+	MagicStarBuff: {
+		Description: Mods.TururusMod.Buffs.MagicStarBuff.Description
+		DisplayName: Magic Star Buff
 	}
 }

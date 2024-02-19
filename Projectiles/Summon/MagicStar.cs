@@ -11,21 +11,27 @@ namespace TururusMod.Projectiles.Summon {
 
         public override void SetStaticDefaults() {
             Main.projFrames[Projectile.type] = 4;
-            ProjectileID.Sets.MinionTargettingFeature[Projectile.type] = true;
-            Main.projPet[Projectile.type] = true;
+            ProjectileID.Sets.TrailingMode[Projectile.type] = 2;
+            ProjectileID.Sets.TrailCacheLength[Projectile.type] = 25;
             ProjectileID.Sets.MinionSacrificable[Projectile.type] = true;
-            ProjectileID.Sets.CultistIsResistantTo[Projectile.type] = false;
+            ProjectileID.Sets.MinionTargettingFeature[Projectile.type] = true;
         }
 
         public sealed override void SetDefaults() {
-            Projectile.width = 18;
-            Projectile.height = 28;
-            Projectile.tileCollide = false;
+            Projectile.width = 26;
+            Projectile.height = 26;
+            Projectile.netImportant = true;
             Projectile.friendly = true;
-            Projectile.minion = true;
-            Projectile.DamageType = DamageClass.Summon;
+            Projectile.ignoreWater = true;
             Projectile.minionSlots = 1f;
+            Projectile.timeLeft = 90000;
             Projectile.penetrate = -1;
+            Projectile.tileCollide = false;
+            Projectile.minion = true;
+            Projectile.light = 1f;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 10;
+            Projectile.DamageType = DamageClass.Summon;
         }
 
         public override bool? CanCutTiles()  => false;
@@ -90,7 +96,7 @@ namespace TururusMod.Projectiles.Summon {
         }
 
         private void SearchForTargets(Player owner, out bool foundTarget, out float distanceFromTarget, out Vector2 targetCenter) {
-            distanceFromTarget = 700f;
+            distanceFromTarget = 500f;
             targetCenter = Projectile.position;
             foundTarget = false;
 
@@ -123,12 +129,12 @@ namespace TururusMod.Projectiles.Summon {
                         }
                     }
                 }
-            }      
+            }
             Projectile.friendly = foundTarget;
         }
 
         private void Movement(bool foundTarget, float distanceFromTarget, Vector2 targetCenter, float distanceToIdlePosition, Vector2 vectorToIdlePosition) {
-            float speed = 8f;
+            float speed = 50f;
             float inertia = 20f;
 
             if (foundTarget) {
@@ -140,10 +146,10 @@ namespace TururusMod.Projectiles.Summon {
                 }
             } else {
                 if (distanceToIdlePosition > 600f) {
-                    speed = 12f;
+                    speed = 60f;
                     inertia = 60f;
                 } else {
-                    speed = 4f;
+                    speed = 25f;
                     inertia = 80f;
                 }
 
@@ -172,7 +178,5 @@ namespace TururusMod.Projectiles.Summon {
                     Projectile.frame = 0;
             }
         }
-
-
     }
 }
