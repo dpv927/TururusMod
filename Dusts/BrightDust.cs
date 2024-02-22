@@ -10,6 +10,7 @@ namespace TururusMod.Dusts {
             dust.noGravity = true;
             dust.frame = new Rectangle(0, 0, 19, 19);
             dust.scale *= 0.75f;
+            dust.noLight = false;
         }
 
         public override bool Update(Dust dust) {

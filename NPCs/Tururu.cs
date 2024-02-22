@@ -23,30 +23,21 @@ namespace TururusMod.NPCs {
             NPC.lifeMax = 900;
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath1;
-            NPC.knockBackResist = 1.5f;
+            NPC.knockBackResist = 0.5f;
             NPCID.Sets.NoTownNPCHappiness[NPC.type] = false;
             Main.npcFrameCount[NPC.type] = 25;
             NPCID.Sets.ExtraFramesCount[NPC.type] = 0;
             NPCID.Sets.AttackFrameCount[NPC.type] = 1;
             NPCID.Sets.DangerDetectRange[NPC.type] = 500;
             NPCID.Sets.AttackType[NPC.type] = 1;
-            NPCID.Sets.AttackTime[NPC.type] = 20;
+            NPCID.Sets.AttackTime[NPC.type] = 5;
             NPCID.Sets.AttackAverageChance[NPC.type] = 10;
             NPCID.Sets.HatOffsetY[NPC.type] = 4;
-            AnimationType = 22;
+            AnimationType = NPCID.Guide;
         }
 
         public override bool CanTownNPCSpawn(int numTownNPCs) {
-            for (int i = 0; i<255 ;i++) {
-                Player player = Main.player[i];
-                
-                foreach(Item item in player.inventory) {
-                    if(item.type == ItemID.WoodenArrow) {
-                        return true;
-                    }
-                }
-            }            
-            return false;
+            return true;
         }
 
         public override List<string> SetNPCNameList() {
@@ -78,7 +69,7 @@ namespace TururusMod.NPCs {
                 "Pa que luego digan, no?",
                 "Dile al tal 'Paco' que encienda el Fornais.",
                 "Vete que hueles a filete.",
-                "Persona 5 Dancing in the Moonlight Goty of the year del año",
+                "Persona 5 Dancing in the Moonlight es Goty of the year del año",
                 "Menuda cochinada",
                 "No lo diga!"
             };

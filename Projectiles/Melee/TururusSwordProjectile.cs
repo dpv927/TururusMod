@@ -39,7 +39,7 @@ namespace TururusMod.Projectiles.Melee {
         }
 
         public override Color? GetAlpha(Color lightColor) {
-            return new Color(84, 250, 247, 200);
+            return new Color(089, 249, 254, 200);
         }
     }
 }

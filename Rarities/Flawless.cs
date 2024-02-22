@@ -1,10 +1,18 @@
 ﻿using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace TururusMod.Rarities {
 
     public class Flawless : ModRarity {
-        public override Color RarityColor => new Color(Main.DiscoR, Main.DiscoG, Main.DiscoB);
+
+        private static int index = 0;
+        private static readonly Color[] colors = {
+            new Color(001, 245, 254),
+            new Color(089, 249, 254),
+            new Color(103, 249, 254),
+            new Color(128, 250, 254),
+        };
+
+        public override Color RarityColor => colors[(index++)%colors.Length];
     }
 }

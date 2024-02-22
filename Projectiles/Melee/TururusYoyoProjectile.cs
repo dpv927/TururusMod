@@ -23,6 +23,7 @@ namespace TururusMod.Projectiles.Melee {
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.MeleeNoSpeed;
             Projectile.penetrate = -1;
+            Projectile.light = 1f;
             Projectile.MaxUpdates = MaxUpdates;
             Projectile.usesLocalNPCImmunity = true;
             Projectile.localNPCHitCooldown = 6 * MaxUpdates;

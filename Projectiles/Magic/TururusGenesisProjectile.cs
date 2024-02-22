@@ -13,6 +13,7 @@ namespace TururusMod.Projectiles.Magic {
         public override void SetDefaults() {
             Projectile.width = 60;
             Projectile.height = 60;
+            Projectile.light = 1f;
             Projectile.alpha = 255;
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Magic;
@@ -125,7 +126,7 @@ namespace TururusMod.Projectiles.Magic {
         }
 
         public override Color? GetAlpha(Color lightColor) {
-            return new Color(200, 200, 200, 200);
+            return new Color(089, 249, 254);
         }
     }
 }
