@@ -1,3 +1,4 @@
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -35,6 +36,10 @@ namespace TururusMod.Projectiles.Melee {
             float rotateSpeed = 0.7f * Projectile.direction;
             Projectile.rotation += rotateSpeed;
             Lighting.AddLight(Projectile.Center, 0.75f, 0.75f, 0.75f);
+        }
+
+        public override Color? GetAlpha(Color lightColor) {
+            return new Color(Main.DiscoR, Main.DiscoG, Main.DiscoB, 200);
         }
     }
 }
