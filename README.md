@@ -1,6 +1,46 @@
-# Tururu's Mod
+<!-- Overview -->
+<h1 align="center">
+  <br>
+    <!-- Logo -->
+    <img src="icon.png" alt="TururusMod" width="200">
+  <br>
+  <!-- Project Name -->
+  TururusMod
+  <br>
+</h1>
 
-# Weapons
+<!-- Project Description -->
+<h4 align="center">A simple <a href="https://terraria.org/">Terraria</a> mod dedicated to Tururu made with <a href="https://store.steampowered.com/app/1281930/tModLoader/">TModLoader</a></h4>
+
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Made for-Tururu-blue" alt="Made for">
+  <img src="https://img.shields.io/badge/Happy-Bday-blue" alt="Birthday">
+  <img src="https://img.shields.io/badge/Pa que-luego digan-blue" alt="Luego">
+  <img src="https://img.shields.io/badge/Disponible en-Steam-blue" alt="Luego">
+</p>
+
+<!-- Quick links -->
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#showcase">Showcase</a> •
+  <a href="#todo-list">Todo List</a>
+</p>
+
+# Features
+
+* Un nuevo arma para cada clase del juego.
+* Las armas y projectiles tienen un deseno unico.
+* Todas las armas tienen un dano equilibrado entre si.
+* Nuevo tipo de municion.
+* Un nuevo tipo de rareza de objetos.
+* Un nuevo NPC.
+* Puedes comprar las nuevas armas y municiones al NPC.
+* Todas las armas y municion se pueden craftear.
+
+# Showcase
+
+## Weapons
 
 | Preview | Name | Damage Type | Projectiles |
 | ------- | ------ | ------- | ------- |
@@ -10,7 +50,7 @@
 | <img src='Items/Weapons/Melee/TururusYoyo.png'>    | <a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a>    | Melee  | <img src='Projectiles/Melee/TururusYoyoProjectile.png'>    |
 | <img src='Items/Weapons/Summon/TururusStaff.png'>  | <a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a>   | Summon | <img src='Example/MagicStar_example.png'>               |
 
-# NPCs
+## NPCs
 
 | Preview | Name |
 | ------- | ------ |
