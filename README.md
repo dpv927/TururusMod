@@ -182,13 +182,15 @@ Aqui hay un adelanto de lo que incluye el mod:
 
 ## TODO List
 
-- [X] Melee Weapon
-- [X] Ranged Weapon 
-- [X] Magic Weapon
-- [X] Summon Staff
-- [X] Yoyo
-- [ ] Boomerang
-- [X] A new Rarity
-- [X] A new NPC
-- [ ] A new Accessory
-- [ ] A new pet
+Estas son las tareas u objetivos que estaban pensados:
+
+- [X] Un arma Meleen
+- [X] Un arma de Rango 
+- [X] Un arma de Magia
+- [X] Un baston de invocacion
+- [X] Un yoyo
+- [ ] Un Boomerang
+- [X] Un nuevo tipo de rareza
+- [X] Un nuevo NPC
+- [ ] Un accesorio
+- [ ] Una mascota
