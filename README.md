@@ -74,15 +74,15 @@ Aqui hay un adelanto de lo que incluye el mod:
 <table>
 	<tbody>
 		<tr>
-			<td colspan="5"><h4 align="center">Armas</h4></td>
+			<td  align="center" colspan="5"><h4 align="center">Armas</h4></td>
 		</tr>
 		<tr>
             <!-- Names and Links row -->
-			<td><a href="Items/Weapons/Melee/TururusSword.png">Tururu's Sword</a></td>
-			<td><a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a></td>
-			<td><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Genesis</a></td>
-			<td><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a></td>
-			<td><a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a></td>
+			<td align="center"><a href="Items/Weapons/Melee/TururusSword.png">Tururu's Sword</a></td>
+			<td align="center"><a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a></td>
+			<td align="center"><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Genesis</a></td>
+			<td align="center"><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a></td>
+			<td align="center"><a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a></td>
 		</tr>
 		<tr>
             <!-- Images row -->
@@ -93,7 +93,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td align="center"><img src="Items/Weapons/Summon/TururusStaff.png"></td>
 		</tr>
 		<tr>
-            <td colspan="5"><p align="center">Estadisticas</p></td>
+            <td  align="center" colspan="5"><p align="center">Estadisticas</p></td>
 		</tr>
 		<tr>
             <!-- Stats row -->
@@ -134,15 +134,15 @@ Aqui hay un adelanto de lo que incluye el mod:
             </td>
 		</tr>
 		<tr>
-			<td colspan="5"><p align="center">Proyectil creado</p></td>
+			<td  align="center" colspan="5"><p align="center">Proyectil creado</p></td>
 		</tr>
         <tr>
             <!-- Projectiles row -->
-			<td>Tururu's Sword</td>
-			<td>Cannon bullet</td>
-			<td>Genesis Projectile</td>
-			<td>Tururu's Yoyo</td>
-			<td>Magic Star</td>
+			<td align="center">Tururu's Sword</td>
+			<td align="center">Cannon bullet</td>
+			<td align="center">Genesis Projectile</td>
+			<td align="center">Tururu's Yoyo</td>
+			<td align="center">Magic Star</td>
 		</tr>
 		<tr>
             <!-- Images row -->
@@ -159,16 +159,16 @@ Aqui hay un adelanto de lo que incluye el mod:
 <table>
 	<tbody>
 		<tr>
-			<td><h4>NPCs</h4></td>
+			<td  align="center"><h4>NPCs</h4></td>
 		</tr>
 		<tr>
-			<td><a href="NPCs/Tururu.cs">Tururu</a></td>
+			<td  align="center"><a href="NPCs/Tururu.cs">Tururu</a></td>
 		</tr>
 		<tr>
-			<td><img src="Example/Tururu_example.png" height="70px"></td>
+			<td  align="center"><img src="Example/Tururu_example.png" height="70px"></td>
 		</tr>
 		<tr>
-			<td>Estadisticas</td>
+			<td align="center">Estadisticas</td>
 		</tr>
 		<tr>
 			<td>
