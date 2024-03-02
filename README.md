@@ -52,7 +52,7 @@ por Tmodloader y la nula atencion de la gente de su servidor de Discord lo hace 
 
 Aparte de eso, no hay mucho mas que decir, sino que gracias  y que mas te vale. :point_up: :smirk_cat:
 
-# Informacion
+## Informacion
 
 Aqui hay un adelanto de lo que incluye el mod:
 
@@ -69,24 +69,116 @@ Aqui hay un adelanto de lo que incluye el mod:
 - **Dano equilibrado entre armas**
 - **Armas y objetos crafteables**
 
-## Galeria
+## Objetos del Mod
 
-A continuacion se representaran los sprites de todas los objetos del mod.
+<table>
+	<tbody>
+		<tr>
+			<td colspan="5"><h4 align="center">Armas</h4></td>
+		</tr>
+		<tr>
+            <!-- Names and Links row -->
+			<td><a href="Items/Weapons/Melee/TururusSword.png">Tururu's Sword</a></td>
+			<td><a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a></td>
+			<td><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Genesis</a></td>
+			<td><a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a></td>
+			<td><a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a></td>
+		</tr>
+		<tr>
+            <!-- Images row -->
+			<td><img src='Items/Weapons/Melee/TururusSword.png'></td>
+			<td><img src="Items/Weapons/Ranged/TururusCannon.png"></td>
+			<td><img src="Items/Weapons/Magic/TururusGenesis.png"></td>
+			<td><img src="Items/Weapons/Melee/TururusYoyo.png"></td>
+			<td><img src="Items/Weapons/Summon/TururusStaff.png"></td>
+		</tr>
+		<tr>
+            <td colspan="5"><p align="center">Estadisticas</p></td>
+		</tr>
+		<tr>
+            <!-- Stats row -->
+            <td> <!-- Tururus Sword  -->
+                - Daño: 1010 (Melee)<br>
+                - Knockback 30 <br>
+                - Tiempo de uso: 12 <br>
+                - Velocidad: 30 <br>
+                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+            </td>
+			<td> <!-- Tururus Cannon  -->
+                - Daño: 1450 (A distancia)<br>
+                - Knockback: 4 <br>
+                - Tiempo de uso: 7 <br>
+                - Velocidad: 15 <br>
+                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+            </td>
+			<td> <!-- Tururus Genesis  -->
+                - Daño: 500 (Magia)<br>
+                - Knockback: 8 <br>
+                - Tiempo de uso: 25 <br>
+                - Velocidad: 8 <br>
+                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+            </td>
+			<td> <!-- Tururus Yoyo  -->
+                - Daño: 750 (Melee)<br>
+                - Knockback: 8.5 <br>
+                - Tiempo de uso: 20 <br>
+                - Velocidad: 16 <br>
+                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+            </td>
+			<td> <!-- Tururus Staff  -->
+                - Daño: 275 (Invocacion)<br>
+                - Knockback: 2 <br>
+                - Tiempo de uso: 15 <br>
+                - Velocidad: 0 <br>
+                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+            </td>
+		</tr>
+		<tr>
+			<td colspan="5"><p align="center">Proyectil creado</p></td>
+		</tr>
+        <tr>
+            <!-- Projectiles row -->
+			<td>Tururu's Sword</td>
+			<td>Cannon bullet</td>
+			<td>Genesis Projectile</td>
+			<td>Tururu's Yoyo</td>
+			<td>Magic Star</td>
+		</tr>
+		<tr>
+            <!-- Images row -->
+			<td><img src='Projectiles/Melee/TururusSwordProjectile.png'></td>
+			<td><img src='Projectiles/Ranged/TururusCannonProjectile.png'></td>
+			<td><img src='Projectiles/Magic/TururusGenesisProjectile.png'></td>
+			<td><img src='Projectiles/Melee/TururusYoyoProjectile.png'></td>
+			<td><img src='Example/MagicStar_example.png'></td>
+		</tr>
+	</tbody>
+</table>
 
-|  | Nombre | Tipo de Dano | Projectil |
-| ------- | ------ | ------- | ------- |
-| <img src='Items/Weapons/Melee/TururusSword.png'>   | <a href="Items/Weapons/Melee/TururusSword.png">Tururu's Sword</a>    | Melee  | <img src='Projectiles/Melee/TururusSwordProjectile.png'>   | 
-| <img src='Items/Weapons/Ranged/TururusCannon.png'> | <a href="Items/Weapons/Ranged/TururusCannon.cs">Tururu's Cannon</a>  | Ranged | <img src='Projectiles/Ranged/TururusCannonProjectile.png'> |
-| <img src='Items/Weapons/Magic/TururusGenesis.png'> | <a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Genesis</a> | Magic  | <img src='Projectiles/Magic/TururusGenesisProjectile.png'> | 
-| <img src='Items/Weapons/Melee/TururusYoyo.png'>    | <a href="Items/Weapons/Magic/TururusGenesis.cs">Tururu's Yoyo</a>    | Melee  | <img src='Projectiles/Melee/TururusYoyoProjectile.png'>    |
-| <img src='Items/Weapons/Summon/TururusStaff.png'>  | <a href="Items/Weapons//Summon/TururusStaff.cs">Tururu's Staff</a>   | Summon | <img src='Example/MagicStar_example.png'>               |
-
-## NPCs
-
-| Preview | Name |
-| ------- | ------ |
-| <img src='Example/Tururu_example.png' height='80px'> | <a href="NPCs//Tururu.cs">Tururu</a> | 
-
+<table>
+	<tbody>
+		<tr>
+			<td><h4>NPCs</h4></td>
+		</tr>
+		<tr>
+			<td><a href="NPCs/Tururu.cs">Tururu</a></td>
+		</tr>
+		<tr>
+			<td><img src="Example/Tururu_example.png" height="70px"></td>
+		</tr>
+		<tr>
+			<td>Estadisticas</td>
+		</tr>
+		<tr>
+			<td>
+                - Tipo de IA: Pasiva<br>
+                - Daño: 35<br>
+                - Vida Maxima: 900<br>
+                - Resistencia de KB: 50%<br>
+            </td>
+		</tr>
+	</tbody>
+</table>
 
 ## TODO List
 
