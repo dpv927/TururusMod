@@ -2,10 +2,10 @@
 <h1 align="center">
   <br>
     <!-- Logo -->
-    <img src="icon.png" alt="TururusMod" width="200">
+    <img src="logoLetters.png" alt="TururusMod" height="200">
   <br>
   <!-- Project Name -->
-  TururusMod
+  <!-- TururusMod -->
   <br>
 </h1>
 
