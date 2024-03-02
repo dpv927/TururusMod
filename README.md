@@ -184,7 +184,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 
 Estas son las tareas u objetivos que estaban pensados:
 
-- [X] Un arma Meleen
+- [X] Un arma Melee
 - [X] Un arma de Rango 
 - [X] Un arma de Magia
 - [X] Un baston de invocacion
