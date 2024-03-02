@@ -86,11 +86,11 @@ Aqui hay un adelanto de lo que incluye el mod:
 		</tr>
 		<tr>
             <!-- Images row -->
-			<td><img src='Items/Weapons/Melee/TururusSword.png'></td>
-			<td><img src="Items/Weapons/Ranged/TururusCannon.png"></td>
-			<td><img src="Items/Weapons/Magic/TururusGenesis.png"></td>
-			<td><img src="Items/Weapons/Melee/TururusYoyo.png"></td>
-			<td><img src="Items/Weapons/Summon/TururusStaff.png"></td>
+			<td align="center"><img src='Items/Weapons/Melee/TururusSword.png'></td>
+			<td align="center"><img src="Items/Weapons/Ranged/TururusCannon.png"></td>
+			<td align="center"><img src="Items/Weapons/Magic/TururusGenesis.png"></td>
+			<td align="center"><img src="Items/Weapons/Melee/TururusYoyo.png"></td>
+			<td align="center"><img src="Items/Weapons/Summon/TururusStaff.png"></td>
 		</tr>
 		<tr>
             <td colspan="5"><p align="center">Estadisticas</p></td>
@@ -146,14 +146,15 @@ Aqui hay un adelanto de lo que incluye el mod:
 		</tr>
 		<tr>
             <!-- Images row -->
-			<td><img src='Projectiles/Melee/TururusSwordProjectile.png'></td>
-			<td><img src='Projectiles/Ranged/TururusCannonProjectile.png'></td>
-			<td><img src='Projectiles/Magic/TururusGenesisProjectile.png'></td>
-			<td><img src='Projectiles/Melee/TururusYoyoProjectile.png'></td>
-			<td><img src='Example/MagicStar_example.png'></td>
+			<td align="center"><img src='Projectiles/Melee/TururusSwordProjectile.png'></td>
+			<td align="center"><img src='Projectiles/Ranged/TururusCannonProjectile.png'></td>
+			<td align="center"><img src='Projectiles/Magic/TururusGenesisProjectile.png'></td>
+			<td align="center"><img src='Projectiles/Melee/TururusYoyoProjectile.png'></td>
+			<td align="center"><img src='Example/MagicStar_example.png'></td>
 		</tr>
 	</tbody>
 </table>
+
 
 <table>
 	<tbody>
