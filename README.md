@@ -102,8 +102,8 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Knockback 30 <br>
                 - Tiempo de uso: 12 <br>
                 - Velocidad: 30 <br>
-                - Compra: 1 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
-		- Venta: 20 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 50 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+                - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 20<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 50<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 		<td> <!-- Tururus Cannon  -->
                 - Daño: 1450 (A distancia)<br>
