@@ -100,6 +100,7 @@ Aqui hay un adelanto de lo que incluye el mod:
             <td> 
 				<!-- Tururus Sword  -->
                 - Daño: 1010<br>
+		- Tipo: Melee<br>
                 - Knockback 30 <br>
                 - Tiempo de uso: 12 <br>
                 - Velocidad: 30 <br>
@@ -109,6 +110,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Cannon  -->
                 - Daño: 1450<br>
+		- Tipo: A distancia<br>
                 - Knockback: 4 <br>
                 - Tiempo de uso: 7 <br>
                 - Velocidad: 15 <br>
@@ -118,6 +120,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td>
 				<!-- Tururus Genesis  -->
                 - Daño: 500<br>
+		- Tipo: Magia<br>
                 - Knockback: 8 <br>
                 - Tiempo de uso: 25 <br>
                 - Velocidad: 8 <br>
@@ -127,6 +130,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Yoyo  -->
                 - Daño: 750<br>
+		- Tipo: Melee<br>
                 - Knockback: 8.5 <br>
                 - Tiempo de uso: 20 <br>
                 - Velocidad: 16 <br>
@@ -136,23 +140,13 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Staff  -->
                 - Daño: 275<br>
+		- Tipo: Invocacion<br>
                 - Knockback: 2 <br>
                 - Tiempo de uso: 15 <br>
                 - Velocidad: 0 <br>
                 - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
 		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
-		</tr>
-		<tr>
-			<td  align="center" colspan="5"><p align="center">Tipo de daño</p></td>
-		</tr>
-		<tr>
-			<!-- Tipo de dano row -->
-			<td align="center">Melee</td>
-			<td align="center">A distancia</td>
-			<td align="center">Magia</td>
-			<td align="center">Melee</td>
-			<td align="center">Invocacion</td>
 		</tr>
 		<tr>
 			<td  align="center" colspan="5"><p align="center">Proyectil creado</p></td>
