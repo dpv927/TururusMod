@@ -11,6 +11,8 @@
     <None Remove="Buffs\MagicStarBuff.png" />
     <None Remove="Dusts\BrightDust.png" />
     <None Remove="Dusts\GenesisDust.png" />
+    <None Remove="Items\Accessories\heavyMouse.png" />
+    <None Remove="Items\Accessories\lightMouse.png" />
     <None Remove="Items\CannonBullet.png" />
     <None Remove="Items\Weapons\Melee\TururusYoyo.png" />
     <None Remove="Items\Weapons\Summon\TururusStaff.png" />

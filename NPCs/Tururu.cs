@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
 using Terraria;
+using Terraria.GameContent.Bestiary;
+using Terraria.GameContent.Personalities;
 using Terraria.ID;
 using Terraria.ModLoader;
+using TururusMod.Items.Accessories;
 using TururusMod.Items.Ammo;
 using TururusMod.Items.Weapons.Magic;
 using TururusMod.Items.Weapons.Melee;
@@ -13,12 +16,29 @@ namespace TururusMod.NPCs {
     [AutoloadHead]
     public class Tururu : ModNPC {
 
+        public override void SetStaticDefaults() {
+            NPCID.Sets.NPCBestiaryDrawOffset.Add(Type, new NPCID.Sets.NPCBestiaryDrawModifiers(){
+                Velocity = 1f,
+                Direction = 1
+            });
+            NPC.Happiness
+                .SetBiomeAffection<SnowBiome>(AffectionLevel.Love)
+                .SetBiomeAffection<ForestBiome>(AffectionLevel.Like)
+                .SetBiomeAffection<DesertBiome>(AffectionLevel.Dislike)
+                .SetBiomeAffection<HallowBiome>(AffectionLevel.Hate)
+                .SetNPCAffection(NPCID.Mechanic, AffectionLevel.Love)
+                .SetNPCAffection(NPCID.WitchDoctor, AffectionLevel.Like)
+                .SetNPCAffection(NPCID.Wizard, AffectionLevel.Dislike)
+                .SetNPCAffection(NPCID.TaxCollector, AffectionLevel.Hate);
+        }
+
         public override void SetDefaults() {
             NPC.townNPC = true;
             NPC.friendly = true;
             NPC.height = 20;
             NPC.width = 20;
             NPC.aiStyle = 7;
+            NPC.damage = 1000;
             NPC.defense = 35;
             NPC.lifeMax = 900;
             NPC.HitSound = SoundID.NPCHit1;
@@ -31,9 +51,16 @@ namespace TururusMod.NPCs {
             NPCID.Sets.DangerDetectRange[NPC.type] = 500;
             NPCID.Sets.AttackType[NPC.type] = 1;
             NPCID.Sets.AttackTime[NPC.type] = 5;
-            NPCID.Sets.AttackAverageChance[NPC.type] = 10;
+            NPCID.Sets.AttackAverageChance[NPC.type] = 11;
             NPCID.Sets.HatOffsetY[NPC.type] = 4;
             AnimationType = NPCID.Guide;
+        }
+
+        public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
+            bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] {
+				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Snow,
+				new FlavorTextBestiaryInfoElement("Mods.TururusMod.Bestiary.Tururu")
+            });
         }
 
         public override bool CanTownNPCSpawn(int numTownNPCs) {
@@ -59,7 +86,9 @@ namespace TururusMod.NPCs {
                 .Add<TururusGenesis>()
                 .Add<CannonBullet>()
                 .Add<TururusYoyo>()
-                .Add<TururusStaff>();
+                .Add<TururusStaff>()
+                .Add<LightGamingMouse>()
+                .Add<HeavyGamingMouse>();
             shop.Register();
         }
 
@@ -71,6 +100,9 @@ namespace TururusMod.NPCs {
                 "Vete que hueles a filete.",
                 "Persona 5 Dancing in the Moonlight es Goty of the year del año",
                 "Menuda cochinada",
+                "Hmm Hmm",
+                "Cuidado",
+                "Aja",
                 "No lo diga!"
             };
             return options[Main.rand.Next(options.Count)];
