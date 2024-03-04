@@ -12,11 +12,11 @@ namespace TururusMod.Items.Accessories {
             Item.height = 33;
             Item.value = 0;
             Item.rare = ModContent.RarityType<Flawless>();
-            Item.value = Item.sellPrice(gold: 5);
+            Item.value = Item.sellPrice(gold: 3);
             Item.value = Item.buyPrice(gold: 7);
             Item.accessory = true;
         }
-
+ 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.accRunSpeed = 9.2f;

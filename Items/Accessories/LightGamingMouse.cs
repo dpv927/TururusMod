@@ -16,10 +16,10 @@ namespace TururusMod.Items.Accessories {
             Item.value = Item.buyPrice(gold: 10);
             Item.accessory = true;
         }
-
+        
         public override void UpdateAccessory(Player player, bool hideVisual) {
             player.accRunSpeed = 9.8f;
-            player.moveSpeed += 0.35f;
+            player.moveSpeed += 0.28f;
             player.iceSkate = true;
             player.waterWalk = true;
             player.fireWalk = true;

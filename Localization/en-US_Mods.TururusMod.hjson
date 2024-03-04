@@ -25,17 +25,17 @@ Items: {
 	}
 
 	TururusStaff: {
-		Tooltip: "Looks like a stick, huh?"
+		Tooltip: Looks like a stick, huh?
 		DisplayName: Tururus Staff
 	}
 
-	LightMouse: {
-		Tooltip: "It's a gaming mouse that you can change the weight of! It seems to be at a minimum now."
+	LightGamingMouse: {
+		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at a minimum now.
 		DisplayName: Light Gaming Mouse
 	}
 
-	HeavyMouse: {
-		Tooltip: "It's a gaming mouse that you can change the weight of! It seems to be at its maximum now."
+	HeavyGamingMouse: {
+		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at its maximum now.
 		DisplayName: Heavy Gaming Mouse
 	}
 }
