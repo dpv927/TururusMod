@@ -98,39 +98,44 @@ Aqui hay un adelanto de lo que incluye el mod:
 		<tr>
             <!-- Stats row -->
             <td> <!-- Tururus Sword  -->
-                - Daño: 1010 (Melee)<br>
+                - Daño: 1010<br>
                 - Knockback 30 <br>
                 - Tiempo de uso: 12 <br>
                 - Velocidad: 30 <br>
-                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+                - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 20<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 50<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
-			<td> <!-- Tururus Cannon  -->
-                - Daño: 1450 (A distancia)<br>
+		<td> <!-- Tururus Cannon  -->
+                - Daño: 1450<br>
                 - Knockback: 4 <br>
                 - Tiempo de uso: 7 <br>
                 - Velocidad: 15 <br>
-                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+                - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 23<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 20<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> <!-- Tururus Genesis  -->
-                - Daño: 500 (Magia)<br>
+                - Daño: 500<br>
                 - Knockback: 8 <br>
                 - Tiempo de uso: 25 <br>
                 - Velocidad: 8 <br>
-                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+               - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> <!-- Tururus Yoyo  -->
-                - Daño: 750 (Melee)<br>
+                - Daño: 750<br>
                 - Knockback: 8.5 <br>
                 - Tiempo de uso: 20 <br>
                 - Velocidad: 16 <br>
-                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+                - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> <!-- Tururus Staff  -->
-                - Daño: 275 (Invocacion)<br>
+                - Daño: 275<br>
                 - Knockback: 2 <br>
                 - Tiempo de uso: 15 <br>
                 - Velocidad: 0 <br>
-                - Venta: 10 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original">
+                - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 		</tr>
 		<tr>
@@ -155,6 +160,41 @@ Aqui hay un adelanto de lo que incluye el mod:
 	</tbody>
 </table>
 
+<table>
+	<tbody>
+		<tr>
+			<td  colspan="2" align="center"><h4>Equipables</h4></td>
+		</tr>
+		<tr>
+			<td  align="center"><a href="Items/Accessories/HeavyGamingMouse.cs">Heavy Gaming Mouse</a></td>
+			<td  align="center"><a href="Items/Accessories/LightGamingMouse.cs">Light Gaming Mouse</a></td>
+		</tr>
+		<tr>
+			<td  align="center"><img src="Items/Accessories/HeavyGamingMouse.png" height="70px"></td>
+			<td  align="center"><img src="Items/Accessories/LightGamingMouse.png" height="70px"></td>
+		</tr>
+		<tr>
+			<td align="center">Estadisticas</td>
+			<td align="center">Estadisticas</td>
+		</tr>
+		<tr>
+			<td>
+                		- Multiplicador de aceleracion: 2.86<br>
+                		- Modificador de velocidad: 55.5%<br>
+				- Inmunidad a la lava <br>
+				- Compra: 7 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 98 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+				- Venta: 1 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 22 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 80 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+            		</td>
+			<td>
+                		- Multiplicador de aceleracion: 3.05<br>
+                		- Modificador de velocidad: 77%<br>
+				- Inmunidad a la lava <br>
+				- Compra: 11 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 40 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+				- Venta: 1 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 75 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 43 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+            		</td>
+		</tr>
+	</tbody>
+</table>
 
 <table>
 	<tbody>
@@ -176,7 +216,7 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Daño: 35<br>
                 - Vida Maxima: 900<br>
                 - Resistencia de KB: 50%<br>
-            </td>
+            		</td>
 		</tr>
 	</tbody>
 </table>
@@ -193,5 +233,5 @@ Estas son las tareas u objetivos que estaban pensados:
 - [ ] Un Boomerang
 - [X] Un nuevo tipo de rareza
 - [X] Un nuevo NPC
-- [ ] Un accesorio
+- [X] Un accesorio
 - [ ] Una mascota
