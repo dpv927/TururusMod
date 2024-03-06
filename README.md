@@ -42,8 +42,7 @@ Una observación del desarrollo del mod es que podria haber incluido más cosas,
 la corrección de algunos errores que no estaban documentados por Tmodloader y la nula
 atención de la gente de su servidor de Discord lo ha hecho imposible.
 
-Aparte de eso, no hay mucho más que decir, sino que gracias y que más te vale. 
-:point_up: :smirk_cat:
+Aparte de eso, no hay mucho más que decir, sino que gracias y que más te vale. :point_up: :smirk_cat:
 
 ## Información
 
