@@ -16,6 +16,11 @@
   <img src="https://img.shields.io/badge/Available on-Steam-blue" alt="Steam">
 </p>
 
+<p align="center">
+	:es: <a href="https://github.com/dpv927/TururusMod/tree/main">Español</a>
+	:uk: <a href="#">English</a>
+</p><br>
+
 <!-- Poner aqui el video -->
 <!-- Poner aqui el video -->
 
@@ -64,7 +69,7 @@ Here's a preview of what's included in the mod:
 <table class="armas">
 	<tbody>
 		<tr>
-			<td  align="center" colspan="5"><h4 align="center">Armas</h4></td>
+			<td  align="center" colspan="5"><h4 align="center">Weapons</h4></td>
 		</tr>
 		<tr>
             <!-- Names and Links row -->
@@ -168,7 +173,7 @@ Here's a preview of what's included in the mod:
 
 <table class="accesorios">
 	<tbody>
-		<tr><td  colspan="2" align="center"><h4>Equipables</h4></td></tr>
+		<tr><td  colspan="2" align="center"><h4>Accesories</h4></td></tr>
 		<tr>
 			<td  align="center"><a href="Items/Accessories/HeavyGamingMouse.cs">Heavy Gaming Mouse</a></td>
 			<td  align="center"><a href="Items/Accessories/LightGamingMouse.cs">Light Gaming Mouse</a></td>
