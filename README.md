@@ -8,8 +8,6 @@
 <!-- Project Description -->
 <h4 align="center">Un simple mod para <a href="https://terraria.org/">Terraria</a> dedicado a Tururu, hecho con <a href="https://store.steampowered.com/app/1281930/tModLoader/">TModLoader</a></h4>
 
-<!-- Poner aqui el video -->
-
 <!-- Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Hecho para-Tururu-blue" alt="Made for">
@@ -18,60 +16,54 @@
   <img src="https://img.shields.io/badge/Disponible en-Steam-blue" alt="Luego">
 </p>
 
+<!-- Poner aqui el video -->
+<!-- Poner aqui el video -->
+
 <!-- Quick links -->
 <p align="center">
-  <a href="#features">Características</a> •
-  <a href="#showcase">Escaparate</a> •
-  <a href="#todo-list">Todo List</a>
-</p>
-
-
-<!-- Other Badges -->
-<!-- <h1>
-  <a href="#--------">
-    <img alt="" align="right" src="https://img.shields.io/github/stars/dpv927/TururusMod?color=0C0E0F&labelColor=0C0E0F&style=for-the-badge"/>
-  </a>
-  <a href="#--------">
-    <img alt="" align="left" src="https://badges.pufler.dev/visits/dpv927/TururusMod?style=flat-square&label=&color=0C0E0F&logo=github&logoColor=white&labelColor=0C0E0F"/>
-  </a>
-</h1> -->
-<br>
+  <a href="#información">Información</a> •
+  <a href="#objetos-del-mod">Objetos del mod</a> •
+  <a href="#todo-list">TODO List</a>
+</p><br>
 
 ## Bienvenido a Tururu's Mod!
 
-<!-- Modificar este link! -->
-<a href="google.com"><img alt="TururusModLogo2" src="Logo2.png" height="150" align="left"></a>
+<a href="--------"><img alt="TururusModLogo2" src="Logo2.png" height="150" align="left"></a>
 <b>~ Tururu's Mod ~</b>
 
-Este mod no es mas que una extension del jugo original, independiente de otros mods, que contiene nuevas armas para todas las clases, nuevos objetos, nuevos equipables y quien sabe si NPCs. 
+Este mod no es mas que una extensión del jugo original, independiente de otros mods,
+que contiene nuevas armas para todas las clases, nuevos objetos, nuevos equipables y
+quien sabe si NPCs.
 
-Todos los sprites de las armas, objetos, y demas estan hechos a mano, pixel a pixel, sin tener referencias externas. Solo imaginacion.
+Todos los sprites de las armas, objetos, y demás estan hechos a mano, pixel a pixel,
+sin tener referencias externas. Solo con imaginación.
 
-Una observacion del desarrollo del mod es que podria haber incluido mas cosas, pero la correccion de algunos errores que no estaban documentados 
-por Tmodloader y la nula atencion de la gente de su servidor de Discord lo hace imposible.
+Una observación del desarrollo del mod es que podria haber incluido más cosas, pero
+la corrección de algunos errores que no estaban documentados por Tmodloader y la nula
+atención de la gente de su servidor de Discord lo ha hecho imposible.
 
-Aparte de eso, no hay mucho mas que decir, sino que gracias  y que mas te vale. :point_up: :smirk_cat:
+Aparte de eso, no hay mucho más que decir, sino que gracias y que más te vale. 
+:point_up: :smirk_cat:
 
-## Informacion
+## Información
 
-Aqui hay un adelanto de lo que incluye el mod:
+Aquí hay un adelanto de lo que incluye el mod:
 
 - **Un arma a melee**
-- **Un yoyo**
+- **Un yoyó**
 - **Una arma de magia**
-- **Un baston de invocacion**
+- **Un bastón de invocación**
 - **Un arma de rango**
-- **Un boomerang**
-- **Un accesorio**
+- **Dos accesorios**
 - **Un NPC**
 - **Una nueva rareza**
 - **Un nuevo tipo de balas**
-- **Dano equilibrado entre armas**
+- **Daño equilibrado entre armas**
 - **Armas y objetos crafteables**
 
 ## Objetos del Mod
 
-<table>
+<table class="armas">
 	<tbody>
 		<tr>
 			<td  align="center" colspan="5"><h4 align="center">Armas</h4></td>
@@ -93,7 +85,7 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td align="center"><img src="Items/Weapons/Summon/TururusStaff.png"></td>
 		</tr>
 		<tr>
-            <td  align="center" colspan="5"><p align="center">Estadisticas</p></td>
+            <td  align="center" colspan="5"><p align="center">Estadísticas</p></td>
 		</tr>
 		<tr>
             <!-- Stats row -->
@@ -105,7 +97,7 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Tiempo de uso: 12 <br>
                 - Velocidad: 30 <br>
                 - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
-		- Venta: 20<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 50<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+				- Venta: 20<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 50<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> 
 				<!-- Tururus Cannon  -->
@@ -124,8 +116,8 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Knockback: 8 <br>
                 - Tiempo de uso: 25 <br>
                 - Velocidad: 8 <br>
-               - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
-		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+               	- Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
+				- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> 
 				<!-- Tururus Yoyo  -->
@@ -135,7 +127,7 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Tiempo de uso: 20 <br>
                 - Velocidad: 16 <br>
                 - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
-		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+				- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 			<td> 
 				<!-- Tururus Staff  -->
@@ -145,10 +137,24 @@ Aqui hay un adelanto de lo que incluye el mod:
                 - Tiempo de uso: 15 <br>
                 - Velocidad: 0 <br>
                 - Compra: 1<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 14<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
-		- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
+				- Venta: 17<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 54<img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
             </td>
 		</tr>
 		<tr>
+<<<<<<< HEAD
+			<td  align="center" colspan="5"><p align="center">Tipo de daño</p></td>
+		</tr>
+		<tr>
+			<!-- Tipo de dano row -->
+			<td align="center">Melee</td>
+			<td align="center">A distancia</td>
+			<td align="center">Magia</td>
+			<td align="center">Melee</td>
+			<td align="center">Invocación</td>
+		</tr>
+		<tr>
+=======
+>>>>>>> f4e33f9be01abb7b759a7d2bd497cdbe3e6322e3
 			<td  align="center" colspan="5"><p align="center">Proyectil creado</p></td>
 		</tr>
         <tr>
@@ -170,11 +176,9 @@ Aqui hay un adelanto de lo que incluye el mod:
 	</tbody>
 </table>
 
-<table>
+<table class="accesorios">
 	<tbody>
-		<tr>
-			<td  colspan="2" align="center"><h4>Equipables</h4></td>
-		</tr>
+		<tr><td  colspan="2" align="center"><h4>Equipables</h4></td></tr>
 		<tr>
 			<td  align="center"><a href="Items/Accessories/HeavyGamingMouse.cs">Heavy Gaming Mouse</a></td>
 			<td  align="center"><a href="Items/Accessories/LightGamingMouse.cs">Light Gaming Mouse</a></td>
@@ -184,62 +188,55 @@ Aqui hay un adelanto de lo que incluye el mod:
 			<td  align="center"><img src="Items/Accessories/LightGamingMouse.png" height="70px"></td>
 		</tr>
 		<tr>
-			<td align="center">Estadisticas</td>
-			<td align="center">Estadisticas</td>
+			<td align="center">Estadísticas</td>
+			<td align="center">Estadísticas</td>
 		</tr>
 		<tr>
 			<td>
-                		- Multiplicador de aceleracion: 2.86<br>
-                		- Modificador de velocidad: 55.5%<br>
+                - Multiplicador de aceleración: 2.86<br>
+                - Modificador de velocidad: 55.5%<br>
 				- Inmunidad a la lava <br>
 				- Compra: 7 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 98 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
 				- Venta: 1 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 22 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 80 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
-            		</td>
+            </td>
 			<td>
-                		- Multiplicador de aceleracion: 3.05<br>
-                		- Modificador de velocidad: 77%<br>
+                - Multiplicador de aceleración: 3.05<br>
+                - Modificador de velocidad: 77%<br>
 				- Inmunidad a la lava <br>
 				- Compra: 11 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 40 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"><br>
 				- Venta: 1 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Gold_Coin.gif/revision/latest?cb=20150713204755&format=original"> 75 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Silver_Coin.gif/revision/latest?cb=20150713204034&format=original"> 43 <img src="https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8f/Copper_Coin.gif/revision/latest?cb=20150703190535&format=original">
-            		</td>
+            </td>
 		</tr>
 	</tbody>
 </table>
 
-<table>
+<table class="NPCs">
 	<tbody>
-		<tr>
-			<td  align="center"><h4>NPCs</h4></td>
-		</tr>
-		<tr>
-			<td  align="center"><a href="NPCs/Tururu.cs">Tururu</a></td>
-		</tr>
-		<tr>
-			<td  align="center"><img src="Example/Tururu_example.png" height="70px"></td>
-		</tr>
-		<tr>
-			<td align="center">Estadisticas</td>
-		</tr>
+		<tr><td align="center"><h4>NPCs</h4></td></tr>
+		<tr><td align="center"><a href="NPCs/Tururu.cs">Tururu</a></td></tr>
+		<tr><td align="center"><img src="Example/Tururu_example.png" height="70px"></td></tr>
+		<tr><td align="center">Estadísticas</td></tr>
 		<tr>
 			<td>
                 - Tipo de IA: Pasiva<br>
                 - Daño: 35<br>
-                - Vida Maxima: 900<br>
+                - Vida Máxima: 900<br>
                 - Resistencia de KB: 50%<br>
-            		</td>
+            </td>
 		</tr>
 	</tbody>
 </table>
 
 ## TODO List
 
-Estas son las tareas u objetivos que estaban pensados:
+Estas son las tareas u objetivos que estaban pensados 
+y actualmente estan completados o por completar:
 
 - [X] Un arma Melee
 - [X] Un arma de Rango 
 - [X] Un arma de Magia
-- [X] Un baston de invocacion
-- [X] Un yoyo
+- [X] Un bastón de invocación
+- [X] Un yoyó
 - [ ] Un Boomerang
 - [X] Un nuevo tipo de rareza
 - [X] Un nuevo NPC
