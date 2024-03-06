@@ -16,6 +16,11 @@
   <img src="https://img.shields.io/badge/Disponible en-Steam-blue" alt="Luego">
 </p>
 
+<p align="center">
+	:es: <a href="#">Español</a>
+	:uk: <a href="READMEen.md">English</a>
+</p><br>
+
 <!-- Poner aqui el video -->
 <!-- Poner aqui el video -->
 
@@ -91,7 +96,6 @@ Aquí hay un adelanto de lo que incluye el mod:
             <td> 
 				<!-- Tururus Sword  -->
                 - Daño: 1010<br>
-		- Tipo: Melee<br>
                 - Knockback 30 <br>
                 - Tiempo de uso: 12 <br>
                 - Velocidad: 30 <br>
@@ -101,7 +105,6 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Cannon  -->
                 - Daño: 1450<br>
-		- Tipo: A distancia<br>
                 - Knockback: 4 <br>
                 - Tiempo de uso: 7 <br>
                 - Velocidad: 15 <br>
@@ -111,7 +114,6 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td>
 				<!-- Tururus Genesis  -->
                 - Daño: 500<br>
-		- Tipo: Magia<br>
                 - Knockback: 8 <br>
                 - Tiempo de uso: 25 <br>
                 - Velocidad: 8 <br>
@@ -121,7 +123,6 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Yoyo  -->
                 - Daño: 750<br>
-		- Tipo: Melee<br>
                 - Knockback: 8.5 <br>
                 - Tiempo de uso: 20 <br>
                 - Velocidad: 16 <br>
@@ -131,7 +132,6 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td> 
 				<!-- Tururus Staff  -->
                 - Daño: 275<br>
-		- Tipo: Invocacion<br>
                 - Knockback: 2 <br>
                 - Tiempo de uso: 15 <br>
                 - Velocidad: 0 <br>
@@ -184,8 +184,7 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td  align="center"><img src="Items/Accessories/LightGamingMouse.png" height="70px"></td>
 		</tr>
 		<tr>
-			<td align="center">Estadísticas</td>
-			<td align="center">Estadísticas</td>
+			<td colspan="2" align="center">Estadísticas</td>
 		</tr>
 		<tr>
 			<td>
