@@ -1,7 +1,7 @@
 <!-- Tururu's Mod Banner -->
 <h1 align="center">
     <a href="--------">
-      <img alt="Tururu's Mod Logo" src="logoLetters.png" alt="TururusMod" height="200">
+      <img alt="Tururu's Mod Logo" src="Assets/logoLetters.png" alt="TururusMod" height="200">
     </a>
 </h1>
 
@@ -28,7 +28,7 @@
 
 ## Bienvenido a Tururu's Mod!
 
-<a href="--------"><img alt="TururusModLogo2" src="Logo2.png" height="150" align="left"></a>
+<a href="--------"><img alt="TururusModLogo2" src="Assets/Logo2.png" height="150" align="left"></a>
 <b>~ Tururu's Mod ~</b>
 
 Este mod no es mas que una extensión del jugo original, independiente de otros mods,
@@ -167,7 +167,7 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td align="center"><img src='Projectiles/Ranged/TururusCannonProjectile.png'></td>
 			<td align="center"><img src='Projectiles/Magic/TururusGenesisProjectile.png'></td>
 			<td align="center"><img src='Projectiles/Melee/TururusYoyoProjectile.png'></td>
-			<td align="center"><img src='Example/MagicStar_example.png'></td>
+			<td align="center"><img src='Assets/MagicStar_example.png'></td>
 		</tr>
 	</tbody>
 </table>
@@ -209,8 +209,8 @@ Aquí hay un adelanto de lo que incluye el mod:
 <table class="NPCs">
 	<tbody>
 		<tr><td align="center"><h4>NPCs</h4></td></tr>
-		<tr><td align="center"><a href="NPCs/Tururu.cs">Tururu</a></td></tr>
-		<tr><td align="center"><img src="Example/Tururu_example.png" height="70px"></td></tr>
+		<tr><td align="center"><a href="Assets//Tururu.cs">Tururu</a></td></tr>
+		<tr><td align="center"><img src="Assets/Tururu_example.png" height="70px"></td></tr>
 		<tr><td align="center">Estadísticas</td></tr>
 		<tr>
 			<td>
