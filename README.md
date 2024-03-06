@@ -141,7 +141,6 @@ Aquí hay un adelanto de lo que incluye el mod:
             </td>
 		</tr>
 		<tr>
-<<<<<<< HEAD
 			<td  align="center" colspan="5"><p align="center">Tipo de daño</p></td>
 		</tr>
 		<tr>
@@ -153,8 +152,6 @@ Aquí hay un adelanto de lo que incluye el mod:
 			<td align="center">Invocación</td>
 		</tr>
 		<tr>
-=======
->>>>>>> f4e33f9be01abb7b759a7d2bd497cdbe3e6322e3
 			<td  align="center" colspan="5"><p align="center">Proyectil creado</p></td>
 		</tr>
         <tr>
