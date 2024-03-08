@@ -1,6 +1,6 @@
 Items: {
 	TururusSword: {
-		DisplayName: Espada de Tururu's
+		DisplayName: Espada de Tururu
 		Tooltip: Parece una espada, ¿no?
 	}
 
@@ -15,7 +15,7 @@ Items: {
 	}
 
 	TururusGenesis: {
-		DisplayName: Libro de Tururu's
+		DisplayName: Libro de Tururu
 		Tooltip: Parece un libro, ¿no?
 	}
 
@@ -79,6 +79,6 @@ NPCs: {
 Buffs: {
 	MagicStarBuff: {
 		Description: Mods.TururusMod.Buffs.MagicStarBuff.Description
-		DisplayName: Magic Star Buff
+		DisplayName: Buff de estrella mágica
 	}
 }
