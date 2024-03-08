@@ -47,9 +47,16 @@ namespace TururusMod.Items.Weapons.Melee {
 
         public override void AddRecipes() {
             CreateRecipe()
-                .AddIngredient(ItemID.TinBar, 2)
-                .AddIngredient(ItemID.LeadBar, 2)
-                .AddIngredient(ItemID.PlatinumBar, 2)
+                .AddIngredient(ItemID.LunarBar)
+                .AddIngredient(ItemID.CopperBar)
+                .AddIngredient(ItemID.GoldBar)
+                .AddIngredient(ItemID.IronBar)
+                .AddIngredient(ItemID.SilverBar)
+                .AddIngredient(ItemID.LeadBar)
+                .AddIngredient(ItemID.MeteoriteBar)
+                .AddIngredient(ItemID.PlatinumBar)
+                .AddIngredient(ItemID.TinBar)
+                .AddIngredient(ItemID.TungstenBar)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }

@@ -31,21 +31,28 @@ namespace TururusMod.Items.Weapons.Magic {
             Item.shoot = ModContent.ProjectileType<TururusGenesisProjectile>();
         }
 
-        public override void AddRecipes() {
-            CreateRecipe().
-                AddIngredient(ItemID.TinBar, 2)
-                .AddIngredient(ItemID.TungstenBar, 2)
-                .AddIngredient(ItemID.PlatinumBar, 2)
-                .AddTile(TileID.WorkBenches)
-                .Register();
-        }
-
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
             for (int i = 0; i < 5; i++) {
                 Vector2 ringVelocity = (MathHelper.TwoPi * i / 5f + velocity.ToRotation()).ToRotationVector2() * velocity.Length() * 0.5f;
                 Projectile.NewProjectile(source, position, ringVelocity, type, damage, knockback, Main.myPlayer, 0f, 0f);
             }
             return false;
+        }
+
+        public override void AddRecipes() {
+            CreateRecipe()
+                .AddIngredient(ItemID.LunarBar)
+                .AddIngredient(ItemID.CopperBar)
+                .AddIngredient(ItemID.GoldBar)
+                .AddIngredient(ItemID.IronBar)
+                .AddIngredient(ItemID.SilverBar)
+                .AddIngredient(ItemID.LeadBar)
+                .AddIngredient(ItemID.MeteoriteBar)
+                .AddIngredient(ItemID.PlatinumBar)
+                .AddIngredient(ItemID.TinBar)
+                .AddIngredient(ItemID.TungstenBar)
+                .AddTile(TileID.WorkBenches)
+                .Register();
         }
     }
 }

@@ -31,15 +31,6 @@ namespace TururusMod.Items.Weapons.Ranged {
             Item.useAmmo = ModContent.ItemType<CannonBullet>();
         }
 
-        public override void AddRecipes() {
-            CreateRecipe().
-                AddIngredient(ItemID.TinBar, 2)
-                .AddIngredient(ItemID.TungstenBar, 2)
-                .AddIngredient(ItemID.PlatinumBar, 2)
-                .AddTile(TileID.WorkBenches)
-                .Register();
-        }
-
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback) {
             Vector2 offset = new Vector2(velocity.X * 10, velocity.Y * 10);
             position += offset;
@@ -49,6 +40,22 @@ namespace TururusMod.Items.Weapons.Ranged {
         public override Vector2? HoldoutOffset() {
             Vector2 offset = new Vector2(0, -5);
             return offset;
+        }
+
+        public override void AddRecipes() {
+            CreateRecipe()
+                .AddIngredient(ItemID.LunarBar)
+                .AddIngredient(ItemID.CopperBar)
+                .AddIngredient(ItemID.GoldBar)
+                .AddIngredient(ItemID.IronBar)
+                .AddIngredient(ItemID.SilverBar)
+                .AddIngredient(ItemID.LeadBar)
+                .AddIngredient(ItemID.MeteoriteBar)
+                .AddIngredient(ItemID.PlatinumBar)
+                .AddIngredient(ItemID.TinBar)
+                .AddIngredient(ItemID.TungstenBar)
+                .AddTile(TileID.WorkBenches)
+                .Register();
         }
     }
 }

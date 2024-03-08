@@ -42,10 +42,17 @@ namespace TururusMod.Items.Weapons.Summon {
         }
 
         public override void AddRecipes() {
-            CreateRecipe().
-                AddIngredient(ItemID.TinBar, 2)
-                .AddIngredient(ItemID.TungstenBar, 2)
-                .AddIngredient(ItemID.PlatinumBar, 2)
+            CreateRecipe()
+                .AddIngredient(ItemID.LunarBar)
+                .AddIngredient(ItemID.CopperBar)
+                .AddIngredient(ItemID.GoldBar)
+                .AddIngredient(ItemID.IronBar)
+                .AddIngredient(ItemID.SilverBar)
+                .AddIngredient(ItemID.LeadBar)
+                .AddIngredient(ItemID.MeteoriteBar)
+                .AddIngredient(ItemID.PlatinumBar)
+                .AddIngredient(ItemID.TinBar)
+                .AddIngredient(ItemID.TungstenBar)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
