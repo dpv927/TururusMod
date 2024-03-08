@@ -48,7 +48,7 @@ attention of the people on his Discord server has made it impossible.
 
 Other than that, there's not much more to say, but thank you. :point_up: :smirk_cat:
 
-## Información
+## Information
 
 Here's a preview of what's included in the mod:
 
