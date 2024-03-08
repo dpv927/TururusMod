@@ -25,18 +25,18 @@ Items: {
 	}
 
 	TururusStaff: {
-		Tooltip: Looks like a stick, huh?
 		DisplayName: Tururus Staff
+		Tooltip: Looks like a stick, huh?
 	}
 
 	LightGamingMouse: {
-		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at a minimum now.
 		DisplayName: Light Gaming Mouse
+		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at a minimum now.
 	}
 
 	HeavyGamingMouse: {
-		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at its maximum now.
 		DisplayName: Heavy Gaming Mouse
+		Tooltip: It's a gaming mouse that you can change the weight of! It seems to be at its maximum now.
 	}
 }
 
@@ -56,12 +56,12 @@ NPCs: {
 		TownNPCMood: {
 			Princess_LovesNPC: I like {NPCName}.
 			LikeNPC_Princess: I like {NPCName}.
-			HateCrowded: I hate how crowded I am.
-			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: There are more people here than in Mercadona.
+			DislikeCrowded: One more person in this plot and I'm off.
 			LoveSpace: I love having so much space.
-			FarFromHome: I am too far from home.
-			NoHome: I hate not having a home.
-			Content: I am content.
+			FarFromHome: I am too far from home (Algeciras).
+			NoHome: When are you going to find me a hut?
+			Content: You shit .com, .es and .net.
 			HateNPC: I hate {NPCName}.
 			DislikeNPC: I dislike {NPCName}.
 			LikeNPC: I like {NPCName}.

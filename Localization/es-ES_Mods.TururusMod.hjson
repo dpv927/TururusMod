@@ -1,0 +1,84 @@
+Items: {
+	TururusSword: {
+		DisplayName: Espada de Tururu's
+		Tooltip: Parece una espada, ¿no?
+	}
+
+	TururusCannon: {
+		DisplayName: Cañón de Tururu
+		Tooltip: Es un cañón enorme, ¿no?
+	}
+
+	CannonBullet: {
+		DisplayName: Bala de cañón
+		Tooltip: Un tipo de bala que podría usarse para un cañón
+	}
+
+	TururusGenesis: {
+		DisplayName: Libro de Tururu's
+		Tooltip: Parece un libro, ¿no?
+	}
+
+	TururusYoyo: {
+		DisplayName: Yoyo de Tururu
+		Tooltip: Parece un yoyo, ¿no?
+	}
+
+	TururusStaff: {
+		DisplayName: Bastón de Tururu
+		Tooltip: Parece un palo, ¿no?
+	}
+
+	LightGamingMouse: {
+		DisplayName: Ratón gaming ligero
+		Tooltip: Es un ratón para juegos al que se le puede cambiar el peso. Parece que ahora está al mínimo.
+	}
+
+	HeavyGamingMouse: {
+		DisplayName: Ratón gaming pesado
+		Tooltip: Es un ratón para juegos al que se le puede cambiar el peso. Parece que ahora está al máximo.
+	}
+}
+
+Projectiles: {
+	TururusSwordProjectile.DisplayName: Tururus Sword Projectile
+	CannonProjectile.DisplayName: Cannon Projectile
+	GenesisProjectile.DisplayName: Genesis Projectile
+	SwordProjectile.DisplayName: Sword Projectile
+	TururusCannonProjectile.DisplayName: Tururus Cannon Projectile
+	TururusYoyoProjectile.DisplayName: Tururus Yoyo Projectile
+	TururusGenesisProjectile.DisplayName: Tururus Genesis Projectile
+	MagicStar.DisplayName: Magic Star
+}
+
+NPCs: {
+	Tururu: {
+		TownNPCMood: {
+			Princess_LovesNPC: Me gusta {NPCName}.
+			LikeNPC_Princess: Me gusta {NPCName}.
+			HateCrowded: Aqui hay mas gente que en el mercadona.
+			DislikeCrowded: Una persona mas en esta parcelilla y me voy.
+			LoveSpace: Me encanta tener tanto espacio.
+			FarFromHome: Estoy demasiado lejos de casa (Algeciras).
+			NoHome: A ver cuando me buscas una chabolilla.
+			Content: Te cagas .com, .es y .net
+			HateNPC: Odio a {NPCName}.
+			DislikeNPC: No me gusta {NPCName}.
+			LikeNPC: Me gusta {NPCName}.
+			LoveNPC: Me encanta {NPCName}.
+			HateBiome: Odio {BiomeName}.
+			DislikeBiome: No me gusta {BiomeName}.
+			LikeBiome: Me gusta {BiomeName}.
+			LoveBiome: Me encanta {BiomeName}.
+		}
+
+		DisplayName: Tururu
+	}
+}
+
+Buffs: {
+	MagicStarBuff: {
+		Description: Mods.TururusMod.Buffs.MagicStarBuff.Description
+		DisplayName: Magic Star Buff
+	}
+}
