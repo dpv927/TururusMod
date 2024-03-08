@@ -1,1 +1,1 @@
-It is a mod that adds various items such as weapons, ammunition, materials and an NPC that helps you to get these items.
+Tururu's mod adds different weapons for each of the existing classes, new equippables and an NPC who sells you all these items.
