@@ -21,9 +21,10 @@
 	:uk: <a href="READMEen.md">English</a>
 </p><br>
 
-<!-- Poner aqui el video -->
-https://github.com/dpv927/TururusMod/assets/113710742/b433310c-3f27-455e-8d94-71cc72e50cbe
-<!-- Poner aqui el video -->
+<!-- video -->
+https://github.com/dpv927/TururusMod/assets/113710742/65971dc5-57b3-445a-aa83-cffe6a652b1b
+
+
 
 <!-- Quick links -->
 <p align="center">
