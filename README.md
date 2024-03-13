@@ -13,7 +13,8 @@
   <img src="https://img.shields.io/badge/Hecho para-Tururu-blue" alt="Made for">
   <img src="https://img.shields.io/badge/Happy-Bday-blue" alt="Birthday">
   <img src="https://img.shields.io/badge/Pa que-luego digan-blue" alt="Luego">
-  <img src="https://img.shields.io/badge/Disponible en-Steam-blue" alt="Luego">
+  <img src="https://img.shields.io/badge/Disponible en-Steam-blue" alt="Steam">
+  <img src="https://img.shields.io/badge/Disponible en-TModLoader-blue" alt="TModloader">
 </p>
 
 <p align="center">
@@ -21,9 +22,10 @@
 	:uk: <a href="READMEen.md">English</a>
 </p><br>
 
-<!-- Poner aqui el video -->
-https://github.com/dpv927/TururusMod/assets/113710742/b433310c-3f27-455e-8d94-71cc72e50cbe
-<!-- Poner aqui el video -->
+<!-- video -->
+https://github.com/dpv927/TururusMod/assets/113710742/65971dc5-57b3-445a-aa83-cffe6a652b1b
+
+
 
 <!-- Quick links -->
 <p align="center">
