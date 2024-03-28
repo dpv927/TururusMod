@@ -16,7 +16,7 @@ namespace TururusMod.Items.Weapons.Magic {
             Item.autoReuse = true;
             Item.damage = 500;
             Item.DamageType = DamageClass.Magic;
-            Item.mana = 1;
+            Item.mana = 20;
             Item.useTime = 25;
             Item.useAnimation = 25;
             Item.useStyle = ItemUseStyleID.Shoot;

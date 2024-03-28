@@ -99,10 +99,15 @@ namespace TururusMod.NPCs {
                 "Dile al tal 'Paco' que encienda el Fornais.",
                 "Vete que hueles a filete.",
                 "Persona 5 Dancing in the Moonlight es Goty of the year del año",
+                "Pablo Motos me debe 150 pavos del Fornais",
                 "Menuda cochinada",
+                "Me piro vampiro",
+                "El dia 30, nivel 300 del pase de batalla del Fornais",
+                "Bienvenida",
                 "Hmm Hmm",
                 "Cuidado",
                 "Aja",
+                "Wow",
                 "No lo diga!"
             };
             return options[Main.rand.Next(options.Count)];
