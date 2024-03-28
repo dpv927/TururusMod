@@ -1,0 +1,24 @@
+[h1]Tururu's Mod[/h1]
+[url=https://github.com/dpv927/TururusMod]GitHub[/url]
+
+This mod is nothing more than an extension of the original game, independent of other mods,
+containing new weapons for all classes, new items, new equipables and, who knows if NPCs.
+
+All weapon sprites, items, and so on are handmade, pixel by pixel, with no external
+references. Only with imagination.
+
+[hr]
+
+A more detailed breakdown of the content available in Tururu's Mod:
+[olist]
+[*] 2 Melee weapons
+[*] 1 Yo-yo
+[*] 1 Magic weapon
+[*] 1 Ranged weapon
+[*] 2 Accessories
+[*] 1 Special NPC
+[*] 1 New type of rarity
+[*] 1 New Bullet type
+[*] Balanced damage between weapons
+[*] All weapons and items are craftable
+[/olist]
