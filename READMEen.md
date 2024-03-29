@@ -13,7 +13,8 @@
   <img src="https://img.shields.io/badge/Made for-Tururu-blue" alt="Made for">
   <img src="https://img.shields.io/badge/Happy-Bday-blue" alt="Birthday">
   <img src="https://img.shields.io/badge/Pa que-luego digan-blue" alt="Luego">
-  <img src="https://img.shields.io/badge/Available on-Steam-blue" alt="Steam">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3205730693"><img src="https://img.shields.io/badge/Available on-Steam-blue" alt="Steam"></a>
+  <img src="https://img.shields.io/badge/Available on-TModLoader-blue" alt="TModloader">
 </p>
 
 <p align="center">
