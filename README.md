@@ -46,12 +46,6 @@ quien sabe si NPCs.
 Todos los sprites de las armas, objetos, y demás estan hechos a mano, pixel a pixel,
 sin tener referencias externas. Solo con imaginación.
 
-Una observación del desarrollo del mod es que podria haber incluido más cosas, pero
-la corrección de algunos errores que no estaban documentados por Tmodloader y la nula
-atención de la gente de su servidor de Discord lo ha hecho imposible.
-
-Aparte de eso, no hay mucho más que decir, sino que gracias y que más te vale. :point_up: :smirk_cat:
-
 ## Información
 
 Aquí hay un adelanto de lo que incluye el mod:
@@ -224,19 +218,3 @@ Aquí hay un adelanto de lo que incluye el mod:
 		</tr>
 	</tbody>
 </table>
-
-## TODO List
-
-Estas son las tareas u objetivos que estaban pensados 
-y actualmente estan completados o por completar:
-
-- [X] Un arma Melee
-- [X] Un arma de Rango 
-- [X] Un arma de Magia
-- [X] Un bastón de invocación
-- [X] Un yoyó
-- [ ] Un Boomerang
-- [X] Un nuevo tipo de rareza
-- [X] Un nuevo NPC
-- [X] Un accesorio
-- [ ] Una mascota
